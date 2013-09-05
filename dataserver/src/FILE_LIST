@@ -1,0 +1,77 @@
+﻿/*
+Author : fangbo 
+*/
+//逻辑处理部分
+(1) dataserver_main.cpp
+- 初始化dataserver，调用init和start方法，
+- 循环检测stop_file，如果存在调用dataserver stop方法停止ds
+
+(2) dataserver.cpp
+- ds初始化：读取配置文件、设置ds全局log参数、初始化DataServerImpl类
+- ds启动：调用DataServerImpl的start方法
+- ds停止：调用DataServerImpl的stop方法
+
+(3) dataserver_impl.cpp
+- 供dataserver.cpp调用，是整个程序的实现框架
+- 初始化：config类、内存池、client任务队列、ns任务队列、复制任务队列、client队列处理器、ns队列处理器、复制任务队列处理器、接收和发起请求的data_net_server初始化、hearbeat初始化、本地数据存储fsdataset初始化、fsDataInterface初始化
+- 启动：启动data_net_server，启动多个client队列处理器线程、启动多个ns队列处理器线程、启动多个复制队列处理器线程、启动多个hearbeat线程
+- 队列操作入口：提供client任务队列、ns任务队列、复制任务队列的push和pop操作
+
+(4) dataserver_conf.cpp
+- 初始化：load配置文件，读取相关属性，为私有变量赋值，并检测配置有效性
+
+(5) dataserver_net_server.cpp
+- 初始化：获取amframe实例，初始化listensockethandler
+- 启动：先初始化，启动监听，向NS发起连接
+- 向NS发起连接：初始化DataServerStreamSockethandler，向NS发起异步连接
+- 向DS发起连接：初始化DataServerStreamSocketHandler，向指定ds_id发起连接
+
+(6) dataserver_net_handler.cpp
+-负责网络收发
+- DataServerListenSocketHandler   :监听连接处理相关回调，连接建立时，返回DataServerStreamSocketHandler，连接关闭时
+   ds_impl的num_connection变量减一
+- DataServerStreamSocketHandler : 数据传输相关回调，连接建立时，ds_impl的num_connection加一，收到数据包时，先解包取出包类型operation，再重新构造packet
+      *写操作返回包，直接判断是否有client_data，如果没有client_data抛出错误
+      *复制数据块包，构造ClientTask，push到client任务队列中
+      *注册返回包，构造NsTask，push到NS任务队列中
+      *blockreport返回包，构造NSTask，push到NS任务队列中
+
+(7) dataserver_heartbeat.cpp
+- 初始化：初始化DataServerMetrics类，用来存放各种统计数据
+- 线程启动入口：先注册DS，再为DataServerMetrics实例各个成员变量赋值， 封装hearbeat包，发送给NS，如果到了blockreport时间，发送blockreport包
+- DS注册：同步方式发送register数据包
+- DSblockreport：向NS发送blockreport数据包
+
+(8) dataserver_response.cpp
+- 定义：DataServerResponse，WriteResponse，ClientTask，SyncResponse，NSTask这些和NS client 交互时用到的类，为client_data的类型定义
+
+(9) ClientTaskProcessor.cpp
+- 定义： ClientTaskProcessor(client数据包处理器)、NSTaskProcessor(NS数据包处理器)、SyncTaskProcessor（复制数据包处理器）
+- TaskProcessor线程执行入口： 从client任务队列中取出重新处理过的数据包，根据数据包中的操作类型，调用相应的方法处理
+
+(10) dataserver_stat_manager.cpp
+- 输出统计数据信息到文件
+
+(11) fs_interface.cpp
+-  定义：BlockStatus（保存设置block相关信息）、BlockCacheCheck（定期checkblock cache信息）、FSDataInterface（封装读写复制接口）
+(12）dataserver_stat_manager.cpp
+-  定义监控信息
+
+//本地存储部分
+(13) localfile/block_meta_info.cpp：
+- 保存block和metafile信息
+
+(14) localfile/fsdataset.cpp
+- 调用fsdir.cpp,提供读、写、复制、删除、获取block长度、获取block报告、获取block数量等接口
+
+(15) localfile/fsdir.cpp
+- 管理本地数据块存放目录 重建blockmap、返回addblock时需要的路径等
+
+(16) localfile/helper.cpp
+- 提供路径检测等常用函数
+
+(17) localfile/readblockinfo.h
+- 保存读数据时返回的信息
+
+(18) localfile/writeblockfd.h
+- 保存写数据是返回的信息

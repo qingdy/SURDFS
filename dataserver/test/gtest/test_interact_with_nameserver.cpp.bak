@@ -1,0 +1,287 @@
+/*
+ * version : 1.0
+ * author  : carloswjx
+ * date    : 2012-6-26
+ */
+
+#include <gtest/gtest.h>
+#include <stdio.h>
+#include <assert.h>
+#include <stdint.h>
+#include <unistd.h>
+#include <set>
+#include <map>
+#include "blade_common_define.h"
+#include "blade_packet.h"
+#include "cthread.h"
+#include "log.h"
+#include "mempool.h"
+#include "singleton.h"
+#include "blade_crc.h"
+#include "fs_interface.h"
+#include "blade_net_util.h"
+#include "blade_common_data.h"
+#include "bladestore_ops.h"
+#include "dataserver_conf.h"
+#include "dataserver_impl.h"
+#include "dataserver_heartbeat.h"
+#include "dataserver_response.h"
+#include "dataserver_net_handler.h"
+#include "dataserver_net_server.h"
+#include "dataserver_response.h"
+#include "read_block_packet.h"
+#include "write_pipeline_packet.h"
+#include "write_packet_packet.h"
+#include "heartbeat_packet.h"
+#include "register_packet.h"
+#include "bad_block_report_packet.h"
+#include "block_report_packet.h"
+#include "block_received_packet.h"
+#include "block_to_get_length_packet.h"
+#include "replicate_block_packet.h"
+#include "task_process.h"
+
+namespace bladestore
+{
+namespace dataserver
+{
+using namespace bladestore::common;
+using namespace bladestore::message;
+using namespace pandora;
+
+class FakeDataServerImpl;
+
+class FakeNSTaskProcessor : public NSTaskProcessor
+{
+public:
+    FakeNSTaskProcessor(FakeDataServerImpl *impl);
+    ~FakeNSTaskProcessor(){}
+    
+    int32_t ProcessTask(NSTask *task);
+    int32_t ProcessHeartbeatReply(NSTask *task);   
+    int32_t ProcessBlockReportReply(NSTask *task);   
+    //TODO
+    //int32_t ProcessBlockToGetLength(NSTask *task);
+    //int32_t RemoveBlocks(BladePacket *packet);
+    //int32_t TransferBlocks(map<BlockInfo, set<uint64_t> >&  blocks_to_replicate);
+
+    FakeDataServerImpl  * ds_impl_;
+};
+
+class FakeDataServerImpl
+{
+public:
+    FakeDataServerImpl(): ns_processor_(NULL)
+    {
+        ns_processor_= new FakeNSTaskProcessor(this);
+    }
+    ~FakeDataServerImpl()
+    {
+        if (ns_processor_) {
+            delete ns_processor_;
+            ns_processor_= NULL;
+        }
+    }
+    FakeNSTaskProcessor * ns_processor_;
+};
+
+FakeNSTaskProcessor::FakeNSTaskProcessor(FakeDataServerImpl *impl): ds_impl_(impl)
+{
+}
+
+int32_t FakeNSTaskProcessor::ProcessTask(NSTask *task)
+{
+    if (!task) {
+        return BLADE_ERROR;
+    }    
+    int16_t operation = task->packet()->get_operation();
+    int32_t ret = BLADE_SUCCESS;
+    switch (operation) {
+        case OP_HEARTBEAT_REPLY:
+            ret = BLADE_SUCCESS;
+            break;
+        case OP_BLOCK_REPORT_REPLY:
+            ret = BLADE_SUCCESS;
+            break;
+        case OP_BLOCK_TO_GET_LENGTH:
+            ret = BLADE_SUCCESS;
+            break;
+        default: 
+            break;
+    }            
+    
+    return ret;
+}
+
+int32_t FakeNSTaskProcessor::ProcessHeartbeatReply(NSTask *task)
+{
+    int32_t ret = BLADE_SUCCESS;
+    //ds_impl_->log()->Write(MSG_DEBUG, " In heartbeat_reply");
+    HeartbeatReplyPacket * reply =  static_cast<HeartbeatReplyPacket *>(task->packet()) ;
+    if (!reply) {
+        //ds_impl_->log()->Write(MSG_ERROR, "Heartbeat reply static_cast error");
+        return BLADE_ERROR;
+    }
+    switch (reply->ret_code()) {
+        case RET_NEED_REGISTER:
+            //ds_impl_->log()->Write(MSG_INFO, "Heartbeat reply to register");
+            //while (!(ds_impl_->ds_heartbeat_manager()->DSRegister())) {
+            while (!true) {
+                //ds_impl_->log()->Write(MSG_ERROR, "ds_register return error");
+            }
+            break;
+        case RET_NEED_OP:
+            //ds_impl_->log()->Write(MSG_INFO, "Heartbeat reply to need op");
+            if (!reply->blocks_to_remove().empty()) {
+                // remove_blocks(reply->blocks_to_remove_);
+                //RemoveBlocks(reply);
+            }
+            if (!reply->blocks_to_replicate().empty()) {
+                //TODO block replicate  this need to be  moved out from heart beat
+                //ds_impl_->log()->Write(MSG_DEBUG, "HB reply need transferblock");
+                //TransferBlocks(reply->blocks_to_replicate());
+            }
+            break;
+        default:
+            //ds_impl_->log()->Write(MSG_ERROR, "heartbeat with unexpected error");
+            ret = BLADE_ERROR;
+    }
+    return ret;
+}
+
+int32_t FakeNSTaskProcessor::ProcessBlockReportReply(NSTask *task)
+{
+    //ds_impl_->log()->Write(MSG_DEBUG, " In block report_reply");
+    BlockReportReplyPacket * reply = static_cast<BlockReportReplyPacket *>(task->packet());
+    if (!reply) {
+        //ds_impl_->log()->Write(MSG_ERROR, "BlockReport static_cast error");
+        return BLADE_ERROR;
+    }
+    int32_t ret = BLADE_SUCCESS;
+    switch (reply->ret_code()) {
+        case RET_SUCCESS: {
+            //ds_impl_->log()->Write(MSG_INFO, "BlockReport with RET_SUCCESS");
+            //ds_impl_->ds_heartbeat_manager()->set_last_report(TimeUtil::GetTime() + LAST_REPORT_INTERVAL);
+            //ds_impl_->log()->Write(MSG_DEBUG, "last report time updated");
+            break;
+        }
+        case RET_NEED_REGISTER:
+            //ds_impl_->log()->Write(MSG_INFO, "BlockReport with RET_NEED_REGISTER");
+            while (!true) {
+                //ds_impl_->log()->Write(MSG_ERROR, "ds_register return error");
+            }
+            break;
+        default:
+            //ds_impl_->log()->Write(MSG_ERROR, "BlockReport with unexpected error");
+            ret = BLADE_ERROR;
+    }
+    return ret;
+}
+
+class TestNSInteract : public ::testing::Test
+{
+protected:
+    virtual void SetUp()
+    {
+        dataserver = new  FakeDataServerImpl();
+    }
+    
+    virtual void TearDown()
+    {
+        if (dataserver) {
+            delete dataserver;
+            dataserver = NULL;
+        }
+    }
+    FakeDataServerImpl *dataserver;
+}; 
+
+
+
+TEST_F(TestNSInteract, testprocess)
+{
+    EXPECT_EQ(BLADE_ERROR, dataserver->ns_processor_->ProcessTask(NULL));
+    
+    HeartbeatReplyPacket * packet1 = new HeartbeatReplyPacket(RET_SUCCESS);
+    SyncResponse * sync1= new SyncResponse(OP_HEARTBEAT_REPLY);
+    NSTask * task1 = new NSTask(packet1, sync1);
+    EXPECT_EQ(BLADE_SUCCESS, dataserver->ns_processor_->ProcessTask(task1));
+    
+    BlockReportReplyPacket * packet2 = new BlockReportReplyPacket(RET_SUCCESS);
+    SyncResponse * sync2= new SyncResponse(OP_BLOCK_REPORT_REPLY);
+    NSTask * task2 = new NSTask(packet2, sync2);
+    EXPECT_EQ(BLADE_SUCCESS, dataserver->ns_processor_->ProcessTask(task2));
+    
+    BlockToGetLengthPacket * packet3 = new BlockToGetLengthPacket(3, 0);
+    NSTask * task3 = new NSTask(packet3, NULL);
+    EXPECT_EQ(BLADE_SUCCESS, dataserver->ns_processor_->ProcessTask(task3));
+    
+    RegisterReplyPacket *packet4 = new RegisterReplyPacket(RET_SUCCESS);
+    SyncResponse * sync4= new SyncResponse(OP_REGISTER_REPLY);
+    NSTask * task4 = new NSTask(packet4, sync4);
+    EXPECT_EQ(BLADE_SUCCESS, dataserver->ns_processor_->ProcessTask(task4));
+}
+
+TEST_F(TestNSInteract, testprocessheatbeatreply)
+{
+    //EXPECT_EQ(BLADE_ERROR, dataserver->ns_processor_->ProcessHeartbeatReply(NULL));
+    
+    HeartbeatReplyPacket * packet1 = new HeartbeatReplyPacket(RET_NEED_REGISTER);
+    SyncResponse * sync1= new SyncResponse(OP_HEARTBEAT_REPLY);
+    NSTask * task1 = new NSTask(packet1, sync1);
+    EXPECT_EQ(BLADE_SUCCESS, dataserver->ns_processor_->ProcessHeartbeatReply(task1));
+    
+    HeartbeatReplyPacket * packet2 = new HeartbeatReplyPacket(RET_NEED_OP);
+    SyncResponse * sync2= new SyncResponse(OP_HEARTBEAT_REPLY);
+    NSTask * task2 = new NSTask(packet2, sync2);
+    EXPECT_EQ(BLADE_SUCCESS, dataserver->ns_processor_->ProcessHeartbeatReply(task2));
+    
+    HeartbeatReplyPacket * packet3 = new HeartbeatReplyPacket(RET_SUCCESS);
+    SyncResponse * sync3= new SyncResponse(OP_HEARTBEAT_REPLY);
+    NSTask * task3 = new NSTask(packet3, sync3);
+    EXPECT_EQ(BLADE_ERROR, dataserver->ns_processor_->ProcessHeartbeatReply(task3));
+    
+    HeartbeatPacket * packet4 = new HeartbeatPacket();
+    SyncResponse * sync4= new SyncResponse(OP_HEARTBEAT);
+    NSTask * task4 = new NSTask(packet4, sync4);
+    EXPECT_EQ(BLADE_ERROR, dataserver->ns_processor_->ProcessHeartbeatReply(task4));
+    
+    HeartbeatReplyPacket * packet5 = new HeartbeatReplyPacket(RET_NEED_REGISTER);
+    SyncResponse * sync5= NULL;
+    NSTask * task5 = new NSTask(packet5, sync5);
+    EXPECT_EQ(BLADE_SUCCESS, dataserver->ns_processor_->ProcessHeartbeatReply(task5));
+}
+
+TEST_F(TestNSInteract, testblockreportreply)
+{
+    //EXPECT_EQ(BLADE_ERROR, dataserver->ns_processor_->ProcessBlockReportReply(NULL));
+    
+    BlockReportReplyPacket * packet1 = new BlockReportReplyPacket(RET_SUCCESS);
+    SyncResponse * sync1= new SyncResponse(OP_BLOCK_REPORT_REPLY);
+    NSTask * task1 = new NSTask(packet1, sync1);
+    EXPECT_EQ(BLADE_SUCCESS, dataserver->ns_processor_->ProcessBlockReportReply(task1));
+    
+    BlockReportReplyPacket * packet2 = new BlockReportReplyPacket(RET_NEED_REGISTER);
+    SyncResponse * sync2= new SyncResponse(OP_BLOCK_REPORT_REPLY);
+    NSTask * task2 = new NSTask(packet2, sync2);
+    EXPECT_EQ(BLADE_SUCCESS, dataserver->ns_processor_->ProcessBlockReportReply(task2));
+    
+    BlockReportReplyPacket * packet3 = new BlockReportReplyPacket(RET_SUCCESS);
+    SyncResponse * sync3= NULL;
+    NSTask * task3 = new NSTask(packet3, sync3);
+    EXPECT_EQ(BLADE_SUCCESS, dataserver->ns_processor_->ProcessBlockReportReply(task3));
+    
+    BlockReportReplyPacket * packet4 = new BlockReportReplyPacket(RET_NEED_OP);
+    SyncResponse * sync4= new SyncResponse(OP_BLOCK_REPORT_REPLY);
+    NSTask * task4 = new NSTask(packet4, sync4);
+    EXPECT_EQ(BLADE_ERROR, dataserver->ns_processor_->ProcessBlockReportReply(task4));
+    
+    BlockReportPacket * packet5 = new BlockReportPacket();
+    SyncResponse * sync5= new SyncResponse(OP_BLOCK_REPORT);
+    NSTask * task5 = new NSTask(packet5, sync5);
+    EXPECT_EQ(BLADE_ERROR, dataserver->ns_processor_->ProcessBlockReportReply(task5));
+}
+
+
+}//namespace dataserver
+}//namespace baldestore

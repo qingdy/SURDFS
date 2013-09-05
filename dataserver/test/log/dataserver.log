@@ -1,0 +1,1081 @@
+FATAL [2012-07-06 14:41:28.872282] <dataserver_net_server_unitest.cpp (Start:59)> net server init failed
+FATAL [2012-07-06 14:41:28.872367] <dataserver_net_server_unitest.cpp (Start:59)> net server init failed
+FATAL [2012-07-06 14:41:28.872376] <dataserver_net_server_unitest.cpp (Start:59)> net server init failed
+FATAL [2012-07-06 14:41:28.872382] <dataserver_net_server_unitest.cpp (Start:59)> net server init failed
+INFO [2012-07-06 14:41:28.872560] <dataserver_net_server_unitest.cpp (ConnectToNS:97)> begin connect to NS
+INFO [2012-07-06 14:41:28.872579] <dataserver_net_server_unitest.cpp (ConnectToNS:97)> begin connect to NS
+INFO [2012-07-06 14:41:28.872587] <dataserver_net_server_unitest.cpp (ConnectToNS:97)> begin connect to NS
+INFO [2012-07-06 14:41:28.872683] <dataserver_net_server_unitest.cpp (ConnectToDS:126)>  success connect to next ds: 1.0.0.0
+ERROR [2012-07-06 14:41:28.872695] <dataserver_net_server_unitest.cpp (ConnectToDS:121)>  error connect to next ds: 1.0.0.0
+ERROR [2012-07-06 14:41:28.872703] <dataserver_net_server_unitest.cpp (ConnectToDS:121)>  error connect to next ds: 1.0.0.0
+ERROR [2012-07-06 15:18:53.273893] <fs_interface.cpp (PrepareRead:119)> mempoolalloc checksum_buf_ error
+ERROR [2012-07-06 15:21:02.160803] <fs_interface.cpp (PrepareRead:119)> mempoolalloc checksum_buf_ error
+ERROR [2012-07-06 15:29:11.238484] <fs_interface.cpp (PrepareRead:137)> read checksum_ into buf_ error
+ERROR [2012-07-06 15:55:31.201329] <fs_interface.cpp (PrepareRead:137)> read checksum_ into buf_ error
+ERROR [2012-07-06 15:56:49.540446] <fs_interface.cpp (PrepareRead:137)> read checksum_ into buf_ error
+ERROR [2012-07-06 16:12:00.007521] <fs_interface.cpp (PrepareRead:95)> on going;prep read:blk_length:0;blk_id:4,block_version:2;
+ERROR [2012-07-06 16:33:48.243351] <fs_interface.cpp (PrepareRead:105)> on going;prep read:blk_length:0;blk_id:4,block_version:2;
+ERROR [2012-07-06 16:37:18.201897] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:0;blk_id:4,block_version:2;
+INFO [2012-07-07 19:11:53.767686] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:7,blk_fd:0;meta_fd:0;return_code:4012,write_mode:0
+ERROR [2012-07-07 19:11:53.767755] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:11:53.768044] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:7,blk_fd:0;meta_fd:0;return_code:4012,write_mode:0
+ERROR [2012-07-07 19:11:53.768055] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:11:53.768330] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:7,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 19:11:53.768340] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:11:53.768624] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:7,blk_fd:0;meta_fd:0;return_code:4012,write_mode:1
+ERROR [2012-07-07 19:11:53.768634] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:11:53.768912] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:8,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 19:11:53.768922] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:11:53.769205] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:8,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 19:11:53.769216] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:11:53.769487] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:8,blk_fd:0;meta_fd:0;return_code:4012,write_mode:1
+ERROR [2012-07-07 19:11:53.769498] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:11:53.769776] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:8,blk_fd:0;meta_fd:0;return_code:4012,write_mode:0
+ERROR [2012-07-07 19:11:53.769787] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:11:53.770109] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:9,blk_fd:0;meta_fd:0;return_code:4012,write_mode:1
+ERROR [2012-07-07 19:11:53.770121] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:11:53.770399] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:9,blk_fd:0;meta_fd:0;return_code:4012,write_mode:1
+ERROR [2012-07-07 19:11:53.770410] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:11:53.770681] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:9,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 19:11:53.770692] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:11:53.770980] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:9,blk_fd:0;meta_fd:0;return_code:4012,write_mode:0
+ERROR [2012-07-07 19:11:53.770991] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:11:53.771265] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:1
+ERROR [2012-07-07 19:11:53.771275] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:11:53.771427] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:0
+ERROR [2012-07-07 19:11:53.771437] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:11:53.771588] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 19:11:53.771598] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:11:53.771748] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 19:11:53.771757] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:11:53.771916] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:4,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 19:11:53.771927] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:15:50.347902] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:7,blk_fd:0;meta_fd:0;return_code:4012,write_mode:0
+ERROR [2012-07-07 19:15:50.347988] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:15:50.348276] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:7,blk_fd:0;meta_fd:0;return_code:4012,write_mode:0
+ERROR [2012-07-07 19:15:50.348290] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:15:50.348563] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:7,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 19:15:50.348574] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:15:50.348856] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:7,blk_fd:0;meta_fd:0;return_code:4012,write_mode:1
+ERROR [2012-07-07 19:15:50.348867] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:15:50.349152] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:8,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 19:15:50.349163] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:15:50.349438] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:8,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 19:15:50.349449] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:15:50.349717] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:8,blk_fd:0;meta_fd:0;return_code:4012,write_mode:1
+ERROR [2012-07-07 19:15:50.349728] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:15:50.350025] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:8,blk_fd:0;meta_fd:0;return_code:4012,write_mode:0
+ERROR [2012-07-07 19:15:50.350036] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:15:50.350308] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:9,blk_fd:0;meta_fd:0;return_code:4012,write_mode:1
+ERROR [2012-07-07 19:15:50.350319] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:15:50.350598] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:9,blk_fd:0;meta_fd:0;return_code:4012,write_mode:1
+ERROR [2012-07-07 19:15:50.350609] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:15:50.350880] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:9,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 19:15:50.350891] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:15:50.351177] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:9,blk_fd:0;meta_fd:0;return_code:4012,write_mode:0
+ERROR [2012-07-07 19:15:50.351188] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:15:50.351461] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:1
+ERROR [2012-07-07 19:15:50.351472] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:15:50.351623] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:0
+ERROR [2012-07-07 19:15:50.351633] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:15:50.351783] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 19:15:50.351792] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:15:50.351944] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 19:15:50.351953] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:15:50.352104] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:4,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 19:15:50.352115] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+ERROR [2012-07-07 19:29:59.811532] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:1680829294;blk_id:4,block_version:2;
+INFO [2012-07-07 19:29:59.812035] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:7,blk_fd:5;meta_fd:6;return_code:1,write_mode:0
+INFO [2012-07-07 19:29:59.812211] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:8,blk_fd:8;meta_fd:9;return_code:1,write_mode:2
+INFO [2012-07-07 19:29:59.812332] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:9,blk_fd:10;meta_fd:11;return_code:1,write_mode:1
+INFO [2012-07-07 19:29:59.812441] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:1
+ERROR [2012-07-07 19:29:59.812450] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:29:59.812477] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:0
+ERROR [2012-07-07 19:29:59.812485] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:29:59.812523] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 19:29:59.812531] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:29:59.812556] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 19:29:59.812581] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:29:59.812660] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:4,blk_fd:12;meta_fd:13;return_code:1,write_mode:2
+INFO [2012-07-07 19:30:13.020173] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:7,blk_fd:3;meta_fd:4;return_code:1,write_mode:0
+INFO [2012-07-07 19:30:13.020357] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:8,blk_fd:6;meta_fd:7;return_code:1,write_mode:2
+INFO [2012-07-07 19:30:13.020464] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:9,blk_fd:8;meta_fd:9;return_code:1,write_mode:1
+INFO [2012-07-07 19:30:13.020572] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:1
+ERROR [2012-07-07 19:30:13.020581] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:30:13.020606] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:0
+ERROR [2012-07-07 19:30:13.020613] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:30:13.020637] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 19:30:13.020644] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:30:13.020667] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 19:30:13.020675] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:30:13.020710] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:4,blk_fd:10;meta_fd:11;return_code:1,write_mode:2
+ERROR [2012-07-07 19:31:20.722856] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:1680829294;blk_id:4,block_version:2;
+INFO [2012-07-07 19:31:20.723676] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:7,blk_fd:5;meta_fd:6;return_code:1,write_mode:0
+INFO [2012-07-07 19:31:20.723859] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:8,blk_fd:8;meta_fd:9;return_code:1,write_mode:2
+INFO [2012-07-07 19:31:20.723983] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:9,blk_fd:10;meta_fd:11;return_code:1,write_mode:1
+INFO [2012-07-07 19:31:20.724222] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:1
+ERROR [2012-07-07 19:31:20.724234] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:31:20.724387] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:0
+ERROR [2012-07-07 19:31:20.724396] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:31:20.724547] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 19:31:20.724556] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:31:20.724706] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 19:31:20.724716] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:31:20.724796] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:4,blk_fd:12;meta_fd:13;return_code:1,write_mode:2
+INFO [2012-07-07 19:31:22.522042] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:7,blk_fd:5;meta_fd:6;return_code:1,write_mode:0
+INFO [2012-07-07 19:31:22.522225] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:8,blk_fd:8;meta_fd:9;return_code:1,write_mode:2
+INFO [2012-07-07 19:31:22.522345] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:9,blk_fd:10;meta_fd:11;return_code:1,write_mode:1
+INFO [2012-07-07 19:31:22.522595] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:1
+ERROR [2012-07-07 19:31:22.522606] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:31:22.522760] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:0
+ERROR [2012-07-07 19:31:22.522770] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:31:22.522920] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 19:31:22.522932] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:31:22.523085] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 19:31:22.523094] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:31:22.523245] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:4,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 19:31:22.523254] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+ERROR [2012-07-07 19:33:33.996229] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:1680829294;blk_id:4,block_version:2;
+INFO [2012-07-07 19:33:33.996693] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:7,blk_fd:5;meta_fd:6;return_code:1,write_mode:0
+INFO [2012-07-07 19:33:33.996873] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:8,blk_fd:8;meta_fd:9;return_code:1,write_mode:2
+INFO [2012-07-07 19:33:33.996992] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:9,blk_fd:10;meta_fd:11;return_code:1,write_mode:1
+INFO [2012-07-07 19:33:33.997102] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:1
+ERROR [2012-07-07 19:33:33.997111] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:33:33.997138] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:0
+ERROR [2012-07-07 19:33:33.997145] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:33:33.997171] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 19:33:33.997178] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:33:33.997203] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 19:33:33.997210] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:33:33.997284] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:4,blk_fd:12;meta_fd:13;return_code:1,write_mode:2
+INFO [2012-07-07 19:33:54.073900] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:7,blk_fd:3;meta_fd:4;return_code:1,write_mode:0
+INFO [2012-07-07 19:33:54.074079] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:8,blk_fd:6;meta_fd:7;return_code:1,write_mode:2
+INFO [2012-07-07 19:33:54.074189] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:9,blk_fd:8;meta_fd:9;return_code:1,write_mode:1
+INFO [2012-07-07 19:33:54.074307] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:1
+ERROR [2012-07-07 19:33:54.074317] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:33:54.074341] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:0
+ERROR [2012-07-07 19:33:54.074349] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:33:54.074403] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 19:33:54.074412] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:33:54.074436] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 19:33:54.074443] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:33:54.074480] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:4,blk_fd:10;meta_fd:11;return_code:1,write_mode:2
+INFO [2012-07-07 19:45:29.146648] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:7,blk_fd:3;meta_fd:4;return_code:1,write_mode:0
+INFO [2012-07-07 19:45:29.146841] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:8,blk_fd:6;meta_fd:7;return_code:1,write_mode:2
+INFO [2012-07-07 19:45:29.146955] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:9,blk_fd:8;meta_fd:9;return_code:1,write_mode:1
+INFO [2012-07-07 19:45:29.147198] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:1
+ERROR [2012-07-07 19:45:29.147210] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:45:29.147363] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:0
+ERROR [2012-07-07 19:45:29.147373] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:45:29.147527] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 19:45:29.147536] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:45:29.147687] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 19:45:29.147697] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:45:29.147737] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:4,blk_fd:10;meta_fd:11;return_code:1,write_mode:2
+INFO [2012-07-07 19:45:29.147850] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:4,blk_fd:12;meta_fd:13;return_code:1,write_mode:2
+ERROR [2012-07-07 19:48:01.774168] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:1680829294;blk_id:4,block_version:2;
+INFO [2012-07-07 19:48:01.774801] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:7,blk_fd:5;meta_fd:6;return_code:1,write_mode:0
+INFO [2012-07-07 19:48:01.774983] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:8,blk_fd:8;meta_fd:9;return_code:1,write_mode:2
+INFO [2012-07-07 19:48:01.775104] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:9,blk_fd:10;meta_fd:11;return_code:1,write_mode:1
+INFO [2012-07-07 19:48:01.775338] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:1
+ERROR [2012-07-07 19:48:01.775350] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:48:01.775502] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:0
+ERROR [2012-07-07 19:48:01.775511] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:48:01.775661] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 19:48:01.775670] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:48:01.775820] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 19:48:01.775829] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:48:01.775908] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:4,blk_fd:12;meta_fd:13;return_code:1,write_mode:2
+INFO [2012-07-07 19:48:01.776029] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:4,blk_fd:14;meta_fd:15;return_code:1,write_mode:2
+ERROR [2012-07-07 19:48:06.412036] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:1680829294;blk_id:4,block_version:2;
+INFO [2012-07-07 19:48:06.412499] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:7,blk_fd:5;meta_fd:6;return_code:1,write_mode:0
+INFO [2012-07-07 19:48:06.412687] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:8,blk_fd:8;meta_fd:9;return_code:1,write_mode:2
+INFO [2012-07-07 19:48:06.412811] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:9,blk_fd:10;meta_fd:11;return_code:1,write_mode:1
+INFO [2012-07-07 19:48:06.412921] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:1
+ERROR [2012-07-07 19:48:06.412930] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:48:06.412956] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:0
+ERROR [2012-07-07 19:48:06.412964] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:48:06.413002] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 19:48:06.413011] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:48:06.413035] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 19:48:06.413043] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:48:06.413118] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:4,blk_fd:12;meta_fd:13;return_code:1,write_mode:2
+INFO [2012-07-07 19:48:06.413224] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:4,blk_fd:14;meta_fd:15;return_code:1,write_mode:2
+ERROR [2012-07-07 19:48:12.767104] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:1680829294;blk_id:4,block_version:2;
+INFO [2012-07-07 19:48:12.768000] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:7,blk_fd:5;meta_fd:6;return_code:1,write_mode:0
+INFO [2012-07-07 19:48:12.768233] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:8,blk_fd:8;meta_fd:9;return_code:1,write_mode:2
+INFO [2012-07-07 19:48:12.768387] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:9,blk_fd:10;meta_fd:11;return_code:1,write_mode:1
+INFO [2012-07-07 19:48:12.768701] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:1
+ERROR [2012-07-07 19:48:12.768714] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:48:12.768924] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:0
+ERROR [2012-07-07 19:48:12.768936] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:48:12.769143] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 19:48:12.769156] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:48:12.769363] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 19:48:12.769375] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 19:48:12.769477] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:4,blk_fd:12;meta_fd:13;return_code:1,write_mode:2
+INFO [2012-07-07 19:48:12.769612] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:4,blk_fd:14;meta_fd:15;return_code:1,write_mode:2
+ERROR [2012-07-07 20:00:29.108633] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:1680829294;blk_id:4,block_version:2;
+INFO [2012-07-07 20:00:29.109281] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:7,blk_fd:5;meta_fd:6;return_code:1,write_mode:0
+ERROR [2012-07-07 20:00:29.109534] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:1601463666;blk_id:7,block_version:1;
+INFO [2012-07-07 20:00:29.109641] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:8,blk_fd:8;meta_fd:9;return_code:1,write_mode:2
+ERROR [2012-07-07 20:00:29.109814] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:-1;blk_id:8,block_version:1;
+INFO [2012-07-07 20:00:29.109920] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:9,blk_fd:10;meta_fd:11;return_code:1,write_mode:1
+ERROR [2012-07-07 20:00:29.110094] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:1601463666;blk_id:9,block_version:1;
+INFO [2012-07-07 20:00:29.110313] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:1
+ERROR [2012-07-07 20:00:29.110324] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 20:00:29.110476] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:0
+ERROR [2012-07-07 20:00:29.110486] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 20:00:29.110636] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 20:00:29.110645] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 20:00:29.110794] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 20:00:29.110804] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 20:00:29.110884] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:4,blk_fd:12;meta_fd:13;return_code:1,write_mode:2
+INFO [2012-07-07 20:00:29.110988] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:4,blk_fd:14;meta_fd:15;return_code:1,write_mode:2
+INFO [2012-07-07 20:00:29.111556] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:6,blk_fd:7;meta_fd:16;return_code:1,write_mode:2
+ERROR [2012-07-07 20:00:29.111777] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:1601463666;blk_id:6,block_version:1;
+INFO [2012-07-07 20:00:29.111872] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:9,blk_fd:18;meta_fd:19;return_code:1,write_mode:2
+ERROR [2012-07-07 20:00:29.112041] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:1601463666;blk_id:9,block_version:1;
+ERROR [2012-07-07 20:00:35.520362] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:1680829294;blk_id:4,block_version:2;
+INFO [2012-07-07 20:00:35.520930] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:7,blk_fd:5;meta_fd:6;return_code:1,write_mode:0
+ERROR [2012-07-07 20:00:35.521177] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:1601463666;blk_id:7,block_version:1;
+INFO [2012-07-07 20:00:35.521327] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:8,blk_fd:8;meta_fd:9;return_code:1,write_mode:2
+ERROR [2012-07-07 20:00:35.521497] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:-1;blk_id:8,block_version:1;
+INFO [2012-07-07 20:00:35.521635] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:9,blk_fd:10;meta_fd:11;return_code:1,write_mode:1
+ERROR [2012-07-07 20:00:35.521786] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:1601463666;blk_id:9,block_version:1;
+INFO [2012-07-07 20:00:35.521910] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:1
+ERROR [2012-07-07 20:00:35.521922] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 20:00:35.521968] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:0
+ERROR [2012-07-07 20:00:35.521995] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 20:00:35.522042] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 20:00:35.522052] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 20:00:35.522097] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 20:00:35.522107] <fs_interface.cpp (PrepareWrite:253)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 20:00:35.522209] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:4,blk_fd:12;meta_fd:13;return_code:1,write_mode:2
+INFO [2012-07-07 20:00:35.522339] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:4,blk_fd:14;meta_fd:15;return_code:1,write_mode:2
+INFO [2012-07-07 20:00:35.522823] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:6,blk_fd:7;meta_fd:16;return_code:1,write_mode:2
+ERROR [2012-07-07 20:00:35.523031] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:1601463666;blk_id:6,block_version:1;
+INFO [2012-07-07 20:00:35.523145] <fs_interface.cpp (PrepareWrite:200)> prepare write blk_id:9,blk_fd:18;meta_fd:19;return_code:1,write_mode:2
+ERROR [2012-07-07 20:00:35.523288] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:1601463666;blk_id:9,block_version:1;
+ERROR [2012-07-07 20:05:55.866503] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:1680829294;blk_id:4,block_version:2;
+INFO [2012-07-07 20:05:55.867144] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:7,blk_fd:5;meta_fd:6;return_code:1,write_mode:0
+ERROR [2012-07-07 20:05:55.867245] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:0;blk_id:7,block_version:1;
+INFO [2012-07-07 20:05:55.867343] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:8,blk_fd:8;meta_fd:9;return_code:1,write_mode:2
+ERROR [2012-07-07 20:05:55.867381] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:1647277171;blk_id:8,block_version:1;
+INFO [2012-07-07 20:05:55.867478] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:9,blk_fd:10;meta_fd:11;return_code:1,write_mode:1
+ERROR [2012-07-07 20:05:55.867515] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:0;blk_id:9,block_version:1;
+INFO [2012-07-07 20:05:55.867751] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:1
+ERROR [2012-07-07 20:05:55.867763] <fs_interface.cpp (PrepareWrite:265)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 20:05:55.867916] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:0
+ERROR [2012-07-07 20:05:55.867926] <fs_interface.cpp (PrepareWrite:265)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 20:05:55.868076] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 20:05:55.868086] <fs_interface.cpp (PrepareWrite:265)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 20:05:55.868237] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 20:05:55.868247] <fs_interface.cpp (PrepareWrite:265)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 20:05:55.868334] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:4,blk_fd:12;meta_fd:13;return_code:1,write_mode:2
+INFO [2012-07-07 20:05:55.868443] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:4,blk_fd:14;meta_fd:15;return_code:1,write_mode:2
+INFO [2012-07-07 20:05:55.869388] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:6,blk_fd:7;meta_fd:16;return_code:1,write_mode:2
+ERROR [2012-07-07 20:05:55.869506] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:0;blk_id:6,block_version:1;
+INFO [2012-07-07 20:05:55.869649] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:9,blk_fd:18;meta_fd:19;return_code:1,write_mode:2
+ERROR [2012-07-07 20:05:55.869689] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:1647277171;blk_id:9,block_version:1;
+ERROR [2012-07-07 21:54:15.165684] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:1680829294;blk_id:4,block_version:2;
+INFO [2012-07-07 21:54:15.166148] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:7,blk_fd:5;meta_fd:6;return_code:1,write_mode:0
+ERROR [2012-07-07 21:54:15.166250] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:0;blk_id:7,block_version:1;
+INFO [2012-07-07 21:54:15.166347] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:8,blk_fd:8;meta_fd:9;return_code:1,write_mode:2
+ERROR [2012-07-07 21:54:15.166384] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:1647277171;blk_id:8,block_version:1;
+INFO [2012-07-07 21:54:15.166476] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:9,blk_fd:10;meta_fd:11;return_code:1,write_mode:1
+ERROR [2012-07-07 21:54:15.166515] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:0;blk_id:9,block_version:1;
+INFO [2012-07-07 21:54:15.166597] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:1
+ERROR [2012-07-07 21:54:15.166605] <fs_interface.cpp (PrepareWrite:265)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 21:54:15.166647] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:0
+ERROR [2012-07-07 21:54:15.166656] <fs_interface.cpp (PrepareWrite:265)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 21:54:15.166691] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 21:54:15.166708] <fs_interface.cpp (PrepareWrite:265)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 21:54:15.166750] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 21:54:15.166759] <fs_interface.cpp (PrepareWrite:265)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 21:54:15.166851] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:4,blk_fd:12;meta_fd:13;return_code:1,write_mode:2
+INFO [2012-07-07 21:54:15.166963] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:4,blk_fd:14;meta_fd:15;return_code:1,write_mode:2
+INFO [2012-07-07 21:54:15.167368] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:6,blk_fd:7;meta_fd:16;return_code:1,write_mode:2
+ERROR [2012-07-07 21:54:15.167452] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:0;blk_id:6,block_version:1;
+INFO [2012-07-07 21:54:15.167543] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:9,blk_fd:18;meta_fd:19;return_code:1,write_mode:2
+ERROR [2012-07-07 21:54:15.167574] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:1647277171;blk_id:9,block_version:1;
+INFO [2012-07-07 21:54:15.168060] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:6,blk_fd:17;meta_fd:22;return_code:1,write_mode:2
+ERROR [2012-07-07 21:54:15.168142] <fs_interface.cpp (GetBlockStatus:278)> status=NULL for blk_id:6
+ERROR [2012-07-07 21:54:15.168524] <fs_interface.cpp (UnComplete:300)> invalid mode for blk_id:6,blk_version:1
+INFO [2012-07-07 21:54:15.168619] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:6,blk_fd:24;meta_fd:25;return_code:1,write_mode:2
+DEBUG [2012-07-07 21:54:15.168653] <fs_interface.cpp (UnComplete:383)> complete write blk_id:6,!
+INFO [2012-07-07 21:54:15.169456] <fs_interface.cpp (UnComplete:396)>  write close endpoint;blkid:6,fd:-1
+INFO [2012-07-07 21:54:15.169525] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:7,blk_fd:27;meta_fd:28;return_code:1,write_mode:2
+ERROR [2012-07-07 21:54:15.169545] <fs_interface.cpp (UnComplete:333)> uncomplete mode not match  blk_id:7!
+ERROR [2012-07-07 21:54:15.169570] <fs_interface.cpp (UnComplete:318)> blk_version not match for blk_id:7 whileuncompleting
+ERROR [2012-07-07 21:54:15.169927] <fs_interface.cpp (Complete:431)> invalid mode for blk_id:6,blk_version:1
+INFO [2012-07-07 21:54:15.169998] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:6,blk_fd:29;meta_fd:30;return_code:1,write_mode:2
+DEBUG [2012-07-07 21:54:15.170038] <fs_interface.cpp (Complete:508)> complete write blk_id:6,!
+INFO [2012-07-07 21:54:15.170162] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:7,blk_fd:31;meta_fd:32;return_code:1,write_mode:2
+ERROR [2012-07-07 21:54:15.170196] <fs_interface.cpp (Complete:455)> complete mode not match  blk_id:7!
+ERROR [2012-07-07 21:54:15.170205] <fs_interface.cpp (Complete:448)> blk_version not match for blk_id:7 whilecompleting
+ERROR [2012-07-07 22:14:28.113091] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:1680829294;blk_id:4,block_version:2;
+INFO [2012-07-07 22:14:28.113908] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:7,blk_fd:5;meta_fd:6;return_code:1,write_mode:0
+ERROR [2012-07-07 22:14:28.114034] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:0;blk_id:7,block_version:1;
+INFO [2012-07-07 22:14:28.114156] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:8,blk_fd:8;meta_fd:9;return_code:1,write_mode:2
+ERROR [2012-07-07 22:14:28.114200] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:1647277171;blk_id:8,block_version:1;
+INFO [2012-07-07 22:14:28.114318] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:9,blk_fd:10;meta_fd:11;return_code:1,write_mode:1
+ERROR [2012-07-07 22:14:28.114365] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:0;blk_id:9,block_version:1;
+INFO [2012-07-07 22:14:28.114646] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:1
+ERROR [2012-07-07 22:14:28.114660] <fs_interface.cpp (PrepareWrite:265)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 22:14:28.114869] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:0
+ERROR [2012-07-07 22:14:28.114881] <fs_interface.cpp (PrepareWrite:265)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 22:14:28.115091] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 22:14:28.115103] <fs_interface.cpp (PrepareWrite:265)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 22:14:28.115312] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-07 22:14:28.115324] <fs_interface.cpp (PrepareWrite:265)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-07 22:14:28.115433] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:4,blk_fd:12;meta_fd:13;return_code:1,write_mode:2
+INFO [2012-07-07 22:14:28.115572] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:4,blk_fd:14;meta_fd:15;return_code:1,write_mode:2
+INFO [2012-07-07 22:14:28.116331] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:6,blk_fd:7;meta_fd:16;return_code:1,write_mode:2
+ERROR [2012-07-07 22:14:28.116437] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:0;blk_id:6,block_version:1;
+INFO [2012-07-07 22:14:28.116553] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:9,blk_fd:18;meta_fd:19;return_code:1,write_mode:2
+ERROR [2012-07-07 22:14:28.116592] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:1647277171;blk_id:9,block_version:1;
+INFO [2012-07-07 22:14:28.117328] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:6,blk_fd:17;meta_fd:22;return_code:1,write_mode:2
+ERROR [2012-07-07 22:14:28.117409] <fs_interface.cpp (GetBlockStatus:278)> status=NULL for blk_id:6
+ERROR [2012-07-07 22:14:28.117973] <fs_interface.cpp (UnComplete:300)> invalid mode for blk_id:6,blk_version:1
+INFO [2012-07-07 22:14:28.118062] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:6,blk_fd:24;meta_fd:25;return_code:1,write_mode:2
+DEBUG [2012-07-07 22:14:28.118117] <fs_interface.cpp (UnComplete:383)> complete write blk_id:6,!
+INFO [2012-07-07 22:14:28.119069] <fs_interface.cpp (UnComplete:396)>  write close endpoint;blkid:6,fd:-1
+INFO [2012-07-07 22:14:28.119250] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:7,blk_fd:27;meta_fd:28;return_code:1,write_mode:2
+ERROR [2012-07-07 22:14:28.119272] <fs_interface.cpp (UnComplete:333)> uncomplete mode not match  blk_id:7!
+ERROR [2012-07-07 22:14:28.119280] <fs_interface.cpp (UnComplete:318)> blk_version not match for blk_id:7 whileuncompleting
+ERROR [2012-07-07 22:14:28.119814] <fs_interface.cpp (Complete:431)> invalid mode for blk_id:6,blk_version:1
+INFO [2012-07-07 22:14:28.119882] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:6,blk_fd:29;meta_fd:30;return_code:1,write_mode:2
+DEBUG [2012-07-07 22:14:28.119917] <fs_interface.cpp (Complete:508)> complete write blk_id:6,!
+INFO [2012-07-07 22:14:28.120041] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:7,blk_fd:31;meta_fd:32;return_code:1,write_mode:2
+ERROR [2012-07-07 22:14:28.120082] <fs_interface.cpp (Complete:455)> complete mode not match  blk_id:7!
+ERROR [2012-07-07 22:14:28.120092] <fs_interface.cpp (Complete:448)> blk_version not match for blk_id:7 whilecompleting
+ERROR [2012-07-08 18:00:23.742141] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:1680829294;blk_id:4,block_version:2;
+INFO [2012-07-08 18:00:23.742778] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:7,blk_fd:5;meta_fd:6;return_code:1,write_mode:0
+ERROR [2012-07-08 18:00:23.742875] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:0;blk_id:7,block_version:1;
+INFO [2012-07-08 18:00:23.742975] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:8,blk_fd:8;meta_fd:9;return_code:1,write_mode:2
+ERROR [2012-07-08 18:00:23.743013] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:1647277171;blk_id:8,block_version:1;
+INFO [2012-07-08 18:00:23.743106] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:9,blk_fd:10;meta_fd:11;return_code:1,write_mode:1
+ERROR [2012-07-08 18:00:23.743145] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:0;blk_id:9,block_version:1;
+INFO [2012-07-08 18:00:23.743356] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:1
+ERROR [2012-07-08 18:00:23.743368] <fs_interface.cpp (PrepareWrite:265)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-08 18:00:23.743522] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:0
+ERROR [2012-07-08 18:00:23.743532] <fs_interface.cpp (PrepareWrite:265)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-08 18:00:23.743682] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-08 18:00:23.743692] <fs_interface.cpp (PrepareWrite:265)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-08 18:00:23.743842] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-08 18:00:23.743852] <fs_interface.cpp (PrepareWrite:265)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-08 18:00:23.743938] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:4,blk_fd:12;meta_fd:13;return_code:1,write_mode:2
+INFO [2012-07-08 18:00:23.744047] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:4,blk_fd:14;meta_fd:15;return_code:1,write_mode:2
+INFO [2012-07-08 18:00:23.744673] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:6,blk_fd:7;meta_fd:16;return_code:1,write_mode:2
+ERROR [2012-07-08 18:00:23.744759] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:0;blk_id:6,block_version:1;
+INFO [2012-07-08 18:00:23.744852] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:9,blk_fd:18;meta_fd:19;return_code:1,write_mode:2
+ERROR [2012-07-08 18:00:23.744905] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:1647277171;blk_id:9,block_version:1;
+INFO [2012-07-08 18:00:23.745570] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:6,blk_fd:17;meta_fd:22;return_code:1,write_mode:2
+ERROR [2012-07-08 18:00:23.745651] <fs_interface.cpp (GetBlockStatus:278)> status=NULL for blk_id:6
+ERROR [2012-07-08 18:00:23.746220] <fs_interface.cpp (UnComplete:300)> invalid mode for blk_id:6,blk_version:1
+INFO [2012-07-08 18:00:23.746309] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:6,blk_fd:24;meta_fd:25;return_code:1,write_mode:2
+DEBUG [2012-07-08 18:00:23.746345] <fs_interface.cpp (UnComplete:383)> complete write blk_id:6,!
+INFO [2012-07-08 18:00:23.747213] <fs_interface.cpp (UnComplete:396)>  write close endpoint;blkid:6,fd:-1
+INFO [2012-07-08 18:00:23.747397] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:7,blk_fd:27;meta_fd:28;return_code:1,write_mode:2
+ERROR [2012-07-08 18:00:23.747418] <fs_interface.cpp (UnComplete:333)> uncomplete mode not match  blk_id:7!
+ERROR [2012-07-08 18:00:23.747427] <fs_interface.cpp (UnComplete:318)> blk_version not match for blk_id:7 whileuncompleting
+ERROR [2012-07-08 18:00:23.748027] <fs_interface.cpp (Complete:431)> invalid mode for blk_id:6,blk_version:1
+INFO [2012-07-08 18:00:23.748093] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:6,blk_fd:29;meta_fd:30;return_code:1,write_mode:2
+DEBUG [2012-07-08 18:00:23.748133] <fs_interface.cpp (Complete:508)> complete write blk_id:6,!
+INFO [2012-07-08 18:00:23.748257] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:7,blk_fd:31;meta_fd:32;return_code:1,write_mode:2
+ERROR [2012-07-08 18:00:23.748291] <fs_interface.cpp (Complete:455)> complete mode not match  blk_id:7!
+ERROR [2012-07-08 18:00:23.748301] <fs_interface.cpp (Complete:448)> blk_version not match for blk_id:7 whilecompleting
+INFO [2012-07-08 18:00:23.748874] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:6,blk_fd:23;meta_fd:33;return_code:1,write_mode:2
+INFO [2012-07-08 18:00:23.748959] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:7,blk_fd:35;meta_fd:36;return_code:1,write_mode:0
+INFO [2012-07-08 18:00:24.752865] <fs_interface.cpp (CheckBlock:569)> come into check script. blk_id3
+INFO [2012-07-08 18:00:24.752895] <fs_interface.cpp (CheckBlock:603)> come into KReadMode
+INFO [2012-07-08 18:00:24.752916] <fs_interface.cpp (CheckBlock:613)> erase by read 
+INFO [2012-07-08 18:00:24.752923] <fs_interface.cpp (CheckBlock:569)> come into check script. blk_id6
+INFO [2012-07-08 18:00:24.752930] <fs_interface.cpp (CheckBlock:583)> come into *writeMode
+INFO [2012-07-08 18:00:24.753182] <fs_interface.cpp (CheckBlock:594)> close endpoint;blkid:6,fd:-1
+INFO [2012-07-08 18:00:24.753195] <fs_interface.cpp (CheckBlock:569)> come into check script. blk_id7
+INFO [2012-07-08 18:00:24.753203] <fs_interface.cpp (CheckBlock:583)> come into *writeMode
+INFO [2012-07-08 18:00:24.753393] <fs_interface.cpp (CheckBlock:594)> close endpoint;blkid:7,fd:-1
+ERROR [2012-07-08 18:02:44.144435] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:1680829294;blk_id:4,block_version:2;
+INFO [2012-07-08 18:02:44.145295] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:7,blk_fd:5;meta_fd:6;return_code:1,write_mode:0
+ERROR [2012-07-08 18:02:44.145419] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:0;blk_id:7,block_version:1;
+INFO [2012-07-08 18:02:44.145544] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:8,blk_fd:8;meta_fd:9;return_code:1,write_mode:2
+ERROR [2012-07-08 18:02:44.145594] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:1647277171;blk_id:8,block_version:1;
+INFO [2012-07-08 18:02:44.145711] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:9,blk_fd:10;meta_fd:11;return_code:1,write_mode:1
+ERROR [2012-07-08 18:02:44.145756] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:0;blk_id:9,block_version:1;
+INFO [2012-07-08 18:02:44.146037] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:1
+ERROR [2012-07-08 18:02:44.146070] <fs_interface.cpp (PrepareWrite:265)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-08 18:02:44.146282] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:0
+ERROR [2012-07-08 18:02:44.146295] <fs_interface.cpp (PrepareWrite:265)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-08 18:02:44.146502] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-08 18:02:44.146514] <fs_interface.cpp (PrepareWrite:265)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-08 18:02:44.146722] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-08 18:02:44.146734] <fs_interface.cpp (PrepareWrite:265)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-08 18:02:44.146842] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:4,blk_fd:12;meta_fd:13;return_code:1,write_mode:2
+INFO [2012-07-08 18:02:44.146977] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:4,blk_fd:14;meta_fd:15;return_code:1,write_mode:2
+INFO [2012-07-08 18:02:44.147744] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:6,blk_fd:7;meta_fd:16;return_code:1,write_mode:2
+ERROR [2012-07-08 18:02:44.147851] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:0;blk_id:6,block_version:1;
+INFO [2012-07-08 18:02:44.147968] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:9,blk_fd:18;meta_fd:19;return_code:1,write_mode:2
+ERROR [2012-07-08 18:02:44.148007] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:1647277171;blk_id:9,block_version:1;
+INFO [2012-07-08 18:02:44.148864] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:6,blk_fd:17;meta_fd:22;return_code:1,write_mode:2
+ERROR [2012-07-08 18:02:44.148969] <fs_interface.cpp (GetBlockStatus:278)> status=NULL for blk_id:6
+ERROR [2012-07-08 18:02:44.149699] <fs_interface.cpp (UnComplete:300)> invalid mode for blk_id:6,blk_version:1
+INFO [2012-07-08 18:02:44.149815] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:6,blk_fd:24;meta_fd:25;return_code:1,write_mode:2
+DEBUG [2012-07-08 18:02:44.149857] <fs_interface.cpp (UnComplete:383)> complete write blk_id:6,!
+INFO [2012-07-08 18:02:44.150885] <fs_interface.cpp (UnComplete:396)>  write close endpoint;blkid:6,fd:-1
+INFO [2012-07-08 18:02:44.151068] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:7,blk_fd:27;meta_fd:28;return_code:1,write_mode:2
+ERROR [2012-07-08 18:02:44.151089] <fs_interface.cpp (UnComplete:333)> uncomplete mode not match  blk_id:7!
+ERROR [2012-07-08 18:02:44.151098] <fs_interface.cpp (UnComplete:318)> blk_version not match for blk_id:7 whileuncompleting
+ERROR [2012-07-08 18:02:44.151632] <fs_interface.cpp (Complete:431)> invalid mode for blk_id:6,blk_version:1
+INFO [2012-07-08 18:02:44.151695] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:6,blk_fd:29;meta_fd:30;return_code:1,write_mode:2
+DEBUG [2012-07-08 18:02:44.151730] <fs_interface.cpp (Complete:508)> complete write blk_id:6,!
+INFO [2012-07-08 18:02:44.151853] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:7,blk_fd:31;meta_fd:32;return_code:1,write_mode:2
+ERROR [2012-07-08 18:02:44.151894] <fs_interface.cpp (Complete:455)> complete mode not match  blk_id:7!
+ERROR [2012-07-08 18:02:44.151904] <fs_interface.cpp (Complete:448)> blk_version not match for blk_id:7 whilecompleting
+INFO [2012-07-08 18:02:44.152613] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:6,blk_fd:23;meta_fd:33;return_code:1,write_mode:2
+INFO [2012-07-08 18:02:44.152714] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:7,blk_fd:35;meta_fd:36;return_code:1,write_mode:0
+INFO [2012-07-08 18:02:45.153659] <fs_interface.cpp (CheckBlock:569)> come into check script. blk_id3
+INFO [2012-07-08 18:02:45.153698] <fs_interface.cpp (CheckBlock:603)> come into KReadMode
+INFO [2012-07-08 18:02:45.153752] <fs_interface.cpp (CheckBlock:613)> erase by read 
+INFO [2012-07-08 18:02:45.153763] <fs_interface.cpp (CheckBlock:569)> come into check script. blk_id6
+INFO [2012-07-08 18:02:45.153771] <fs_interface.cpp (CheckBlock:583)> come into *writeMode
+INFO [2012-07-08 18:02:45.154091] <fs_interface.cpp (CheckBlock:594)> close endpoint;blkid:6,fd:-1
+INFO [2012-07-08 18:02:45.154107] <fs_interface.cpp (CheckBlock:569)> come into check script. blk_id7
+INFO [2012-07-08 18:02:45.154117] <fs_interface.cpp (CheckBlock:583)> come into *writeMode
+INFO [2012-07-08 18:02:45.154324] <fs_interface.cpp (CheckBlock:594)> close endpoint;blkid:7,fd:-1
+ERROR [2012-07-08 18:03:13.123398] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:1680829294;blk_id:4,block_version:2;
+INFO [2012-07-08 18:03:13.124103] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:7,blk_fd:5;meta_fd:6;return_code:1,write_mode:0
+ERROR [2012-07-08 18:03:13.124205] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:0;blk_id:7,block_version:1;
+INFO [2012-07-08 18:03:13.124304] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:8,blk_fd:8;meta_fd:9;return_code:1,write_mode:2
+ERROR [2012-07-08 18:03:13.124346] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:1647277171;blk_id:8,block_version:1;
+INFO [2012-07-08 18:03:13.124440] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:9,blk_fd:10;meta_fd:11;return_code:1,write_mode:1
+ERROR [2012-07-08 18:03:13.124476] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:0;blk_id:9,block_version:1;
+INFO [2012-07-08 18:03:13.124687] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:1
+ERROR [2012-07-08 18:03:13.124698] <fs_interface.cpp (PrepareWrite:265)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-08 18:03:13.124851] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:0
+ERROR [2012-07-08 18:03:13.124860] <fs_interface.cpp (PrepareWrite:265)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-08 18:03:13.125011] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-08 18:03:13.125021] <fs_interface.cpp (PrepareWrite:265)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-08 18:03:13.125171] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-08 18:03:13.125181] <fs_interface.cpp (PrepareWrite:265)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-08 18:03:13.125266] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:4,blk_fd:12;meta_fd:13;return_code:1,write_mode:2
+INFO [2012-07-08 18:03:13.125375] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:4,blk_fd:14;meta_fd:15;return_code:1,write_mode:2
+INFO [2012-07-08 18:03:13.125966] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:6,blk_fd:7;meta_fd:16;return_code:1,write_mode:2
+ERROR [2012-07-08 18:03:13.126049] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:0;blk_id:6,block_version:1;
+INFO [2012-07-08 18:03:13.126141] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:9,blk_fd:18;meta_fd:19;return_code:1,write_mode:2
+ERROR [2012-07-08 18:03:13.126173] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:1647277171;blk_id:9,block_version:1;
+INFO [2012-07-08 18:03:13.126833] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:6,blk_fd:17;meta_fd:22;return_code:1,write_mode:2
+ERROR [2012-07-08 18:03:13.126915] <fs_interface.cpp (GetBlockStatus:278)> status=NULL for blk_id:6
+ERROR [2012-07-08 18:03:13.127476] <fs_interface.cpp (UnComplete:300)> invalid mode for blk_id:6,blk_version:1
+INFO [2012-07-08 18:03:13.127566] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:6,blk_fd:24;meta_fd:25;return_code:1,write_mode:2
+DEBUG [2012-07-08 18:03:13.127602] <fs_interface.cpp (UnComplete:383)> complete write blk_id:6,!
+INFO [2012-07-08 18:03:13.128724] <fs_interface.cpp (UnComplete:396)>  write close endpoint;blkid:6,fd:-1
+INFO [2012-07-08 18:03:13.128912] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:7,blk_fd:27;meta_fd:28;return_code:1,write_mode:2
+ERROR [2012-07-08 18:03:13.128934] <fs_interface.cpp (UnComplete:333)> uncomplete mode not match  blk_id:7!
+ERROR [2012-07-08 18:03:13.128943] <fs_interface.cpp (UnComplete:318)> blk_version not match for blk_id:7 whileuncompleting
+ERROR [2012-07-08 18:03:13.129476] <fs_interface.cpp (Complete:431)> invalid mode for blk_id:6,blk_version:1
+INFO [2012-07-08 18:03:13.129541] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:6,blk_fd:29;meta_fd:30;return_code:1,write_mode:2
+DEBUG [2012-07-08 18:03:13.129575] <fs_interface.cpp (Complete:508)> complete write blk_id:6,!
+INFO [2012-07-08 18:03:13.129699] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:7,blk_fd:31;meta_fd:32;return_code:1,write_mode:2
+ERROR [2012-07-08 18:03:13.129734] <fs_interface.cpp (Complete:455)> complete mode not match  blk_id:7!
+ERROR [2012-07-08 18:03:13.129743] <fs_interface.cpp (Complete:448)> blk_version not match for blk_id:7 whilecompleting
+INFO [2012-07-08 18:03:13.130312] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:6,blk_fd:23;meta_fd:33;return_code:1,write_mode:2
+INFO [2012-07-08 18:03:13.130403] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:7,blk_fd:35;meta_fd:36;return_code:1,write_mode:0
+INFO [2012-07-08 18:03:13.130469] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:8,blk_fd:37;meta_fd:38;return_code:1,write_mode:1
+INFO [2012-07-08 18:03:14.131196] <fs_interface.cpp (CheckBlock:569)> come into check script. blk_id3
+INFO [2012-07-08 18:03:14.131233] <fs_interface.cpp (CheckBlock:603)> come into KReadMode
+INFO [2012-07-08 18:03:14.131262] <fs_interface.cpp (CheckBlock:613)> erase by read 
+INFO [2012-07-08 18:03:14.131271] <fs_interface.cpp (CheckBlock:569)> come into check script. blk_id6
+INFO [2012-07-08 18:03:14.131280] <fs_interface.cpp (CheckBlock:583)> come into *writeMode
+INFO [2012-07-08 18:03:14.131665] <fs_interface.cpp (CheckBlock:594)> close endpoint;blkid:6,fd:-1
+INFO [2012-07-08 18:03:14.131681] <fs_interface.cpp (CheckBlock:569)> come into check script. blk_id7
+INFO [2012-07-08 18:03:14.131691] <fs_interface.cpp (CheckBlock:583)> come into *writeMode
+INFO [2012-07-08 18:03:14.131949] <fs_interface.cpp (CheckBlock:594)> close endpoint;blkid:7,fd:-1
+INFO [2012-07-08 18:03:14.131964] <fs_interface.cpp (CheckBlock:569)> come into check script. blk_id8
+INFO [2012-07-08 18:03:14.131973] <fs_interface.cpp (CheckBlock:583)> come into *writeMode
+INFO [2012-07-08 18:03:14.132368] <fs_interface.cpp (CheckBlock:594)> close endpoint;blkid:8,fd:-1
+ERROR [2012-07-08 18:06:29.276990] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:1680829294;blk_id:4,block_version:2;
+INFO [2012-07-08 18:06:29.277630] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:7,blk_fd:5;meta_fd:6;return_code:1,write_mode:0
+ERROR [2012-07-08 18:06:29.277717] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:0;blk_id:7,block_version:1;
+INFO [2012-07-08 18:06:29.277816] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:8,blk_fd:8;meta_fd:9;return_code:1,write_mode:2
+ERROR [2012-07-08 18:06:29.277854] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:1647277171;blk_id:8,block_version:1;
+INFO [2012-07-08 18:06:29.277946] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:9,blk_fd:10;meta_fd:11;return_code:1,write_mode:1
+ERROR [2012-07-08 18:06:29.277981] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:0;blk_id:9,block_version:1;
+INFO [2012-07-08 18:06:29.278191] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:1
+ERROR [2012-07-08 18:06:29.278202] <fs_interface.cpp (PrepareWrite:265)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-08 18:06:29.278354] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:0
+ERROR [2012-07-08 18:06:29.278378] <fs_interface.cpp (PrepareWrite:265)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-08 18:06:29.278531] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-08 18:06:29.278541] <fs_interface.cpp (PrepareWrite:265)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-08 18:06:29.278691] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-08 18:06:29.278700] <fs_interface.cpp (PrepareWrite:265)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-08 18:06:29.278787] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:4,blk_fd:12;meta_fd:13;return_code:1,write_mode:2
+INFO [2012-07-08 18:06:29.278895] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:4,blk_fd:14;meta_fd:15;return_code:1,write_mode:2
+INFO [2012-07-08 18:06:29.279478] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:6,blk_fd:7;meta_fd:16;return_code:1,write_mode:2
+ERROR [2012-07-08 18:06:29.279551] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:0;blk_id:6,block_version:1;
+INFO [2012-07-08 18:06:29.279643] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:9,blk_fd:18;meta_fd:19;return_code:1,write_mode:2
+ERROR [2012-07-08 18:06:29.279678] <fs_interface.cpp (PrepareRead:106)> on going;prep read:blk_length:1647277171;blk_id:9,block_version:1;
+INFO [2012-07-08 18:06:29.280359] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:6,blk_fd:17;meta_fd:22;return_code:1,write_mode:2
+ERROR [2012-07-08 18:06:29.280433] <fs_interface.cpp (GetBlockStatus:278)> status=NULL for blk_id:6
+ERROR [2012-07-08 18:06:29.280988] <fs_interface.cpp (UnComplete:300)> invalid mode for blk_id:6,blk_version:1
+INFO [2012-07-08 18:06:29.281070] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:6,blk_fd:24;meta_fd:25;return_code:1,write_mode:2
+DEBUG [2012-07-08 18:06:29.281105] <fs_interface.cpp (UnComplete:383)> complete write blk_id:6,!
+INFO [2012-07-08 18:06:29.282053] <fs_interface.cpp (UnComplete:396)>  write close endpoint;blkid:6,fd:-1
+INFO [2012-07-08 18:06:29.282248] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:7,blk_fd:27;meta_fd:28;return_code:1,write_mode:2
+ERROR [2012-07-08 18:06:29.282270] <fs_interface.cpp (UnComplete:333)> uncomplete mode not match  blk_id:7!
+ERROR [2012-07-08 18:06:29.282278] <fs_interface.cpp (UnComplete:318)> blk_version not match for blk_id:7 whileuncompleting
+ERROR [2012-07-08 18:06:29.282810] <fs_interface.cpp (Complete:431)> invalid mode for blk_id:6,blk_version:1
+INFO [2012-07-08 18:06:29.282875] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:6,blk_fd:29;meta_fd:30;return_code:1,write_mode:2
+DEBUG [2012-07-08 18:06:29.282909] <fs_interface.cpp (Complete:508)> complete write blk_id:6,!
+INFO [2012-07-08 18:06:29.283031] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:7,blk_fd:31;meta_fd:32;return_code:1,write_mode:2
+ERROR [2012-07-08 18:06:29.283069] <fs_interface.cpp (Complete:455)> complete mode not match  blk_id:7!
+ERROR [2012-07-08 18:06:29.283078] <fs_interface.cpp (Complete:448)> blk_version not match for blk_id:7 whilecompleting
+INFO [2012-07-08 18:06:29.283648] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:6,blk_fd:23;meta_fd:33;return_code:1,write_mode:2
+INFO [2012-07-08 18:06:29.283735] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:7,blk_fd:35;meta_fd:36;return_code:1,write_mode:0
+INFO [2012-07-08 18:06:29.283806] <fs_interface.cpp (PrepareWrite:212)> prepare write blk_id:8,blk_fd:37;meta_fd:38;return_code:1,write_mode:1
+INFO [2012-07-08 18:06:30.287450] <fs_interface.cpp (CheckBlock:569)> come into check script. blk_id3
+INFO [2012-07-08 18:06:30.287475] <fs_interface.cpp (CheckBlock:603)> come into KReadMode
+INFO [2012-07-08 18:06:30.287495] <fs_interface.cpp (CheckBlock:613)> erase by read 
+INFO [2012-07-08 18:06:30.287502] <fs_interface.cpp (CheckBlock:569)> come into check script. blk_id6
+INFO [2012-07-08 18:06:30.287522] <fs_interface.cpp (CheckBlock:583)> come into *writeMode
+INFO [2012-07-08 18:06:30.287792] <fs_interface.cpp (CheckBlock:594)> close endpoint;blkid:6,fd:-1
+INFO [2012-07-08 18:06:30.287806] <fs_interface.cpp (CheckBlock:569)> come into check script. blk_id7
+INFO [2012-07-08 18:06:30.287813] <fs_interface.cpp (CheckBlock:583)> come into *writeMode
+INFO [2012-07-08 18:06:30.288011] <fs_interface.cpp (CheckBlock:594)> close endpoint;blkid:7,fd:-1
+INFO [2012-07-08 18:06:30.288023] <fs_interface.cpp (CheckBlock:569)> come into check script. blk_id8
+INFO [2012-07-08 18:06:30.288029] <fs_interface.cpp (CheckBlock:583)> come into *writeMode
+INFO [2012-07-08 18:06:30.288333] <fs_interface.cpp (CheckBlock:594)> close endpoint;blkid:8,fd:-1
+DEBUG [2012-07-08 20:31:22.361267] <task_process.cpp (NSTaskProcessor:1343)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 20:31:22.361315] <task_process.cpp (SyncTaskProcessor:1558)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 20:31:22.361789] <dataserver_impl.cpp (Init:119)> dataserver_impl init done!!
+ERROR [2012-07-08 21:21:01.830088] <fs_interface.cpp (PrepareRead:103)> on going;prep read:blk_length:1680829294;blk_id:4,block_version:2;
+INFO [2012-07-08 21:21:01.830552] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:7,blk_fd:5;meta_fd:6;return_code:1,write_mode:0
+ERROR [2012-07-08 21:21:01.830651] <fs_interface.cpp (PrepareRead:103)> on going;prep read:blk_length:0;blk_id:7,block_version:1;
+INFO [2012-07-08 21:21:01.830753] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:8,blk_fd:8;meta_fd:9;return_code:1,write_mode:2
+ERROR [2012-07-08 21:21:01.830789] <fs_interface.cpp (PrepareRead:103)> on going;prep read:blk_length:1647277171;blk_id:8,block_version:1;
+INFO [2012-07-08 21:21:01.830884] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:9,blk_fd:10;meta_fd:11;return_code:1,write_mode:1
+ERROR [2012-07-08 21:21:01.830919] <fs_interface.cpp (PrepareRead:103)> on going;prep read:blk_length:0;blk_id:9,block_version:1;
+INFO [2012-07-08 21:21:01.831004] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:1
+ERROR [2012-07-08 21:21:01.831013] <fs_interface.cpp (PrepareWrite:262)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-08 21:21:01.831038] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:0
+ERROR [2012-07-08 21:21:01.831045] <fs_interface.cpp (PrepareWrite:262)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-08 21:21:01.831068] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-08 21:21:01.831076] <fs_interface.cpp (PrepareWrite:262)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-08 21:21:01.831099] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-08 21:21:01.831106] <fs_interface.cpp (PrepareWrite:262)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-08 21:21:01.831186] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:4,blk_fd:12;meta_fd:13;return_code:1,write_mode:2
+INFO [2012-07-08 21:21:01.831291] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:4,blk_fd:14;meta_fd:15;return_code:1,write_mode:2
+INFO [2012-07-08 21:21:01.831690] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:6,blk_fd:7;meta_fd:16;return_code:1,write_mode:2
+ERROR [2012-07-08 21:21:01.831774] <fs_interface.cpp (PrepareRead:103)> on going;prep read:blk_length:0;blk_id:6,block_version:1;
+INFO [2012-07-08 21:21:01.831866] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:9,blk_fd:18;meta_fd:19;return_code:1,write_mode:2
+ERROR [2012-07-08 21:21:01.831901] <fs_interface.cpp (PrepareRead:103)> on going;prep read:blk_length:1647277171;blk_id:9,block_version:1;
+INFO [2012-07-08 21:21:01.832383] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:6,blk_fd:17;meta_fd:22;return_code:1,write_mode:2
+ERROR [2012-07-08 21:21:01.832483] <fs_interface.cpp (GetBlockStatus:275)> status=NULL for blk_id:6
+ERROR [2012-07-08 21:21:01.832863] <fs_interface.cpp (UnComplete:297)> invalid mode for blk_id:6,blk_version:1
+INFO [2012-07-08 21:21:01.832957] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:6,blk_fd:24;meta_fd:25;return_code:1,write_mode:2
+DEBUG [2012-07-08 21:21:01.832992] <fs_interface.cpp (UnComplete:378)> complete write blk_id:6,!
+INFO [2012-07-08 21:21:01.833770] <fs_interface.cpp (UnComplete:391)>  write close endpoint;blkid:6,fd:-1
+INFO [2012-07-08 21:21:01.833833] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:7,blk_fd:27;meta_fd:28;return_code:1,write_mode:2
+ERROR [2012-07-08 21:21:01.833853] <fs_interface.cpp (UnComplete:328)> uncomplete mode not match  blk_id:7!
+ERROR [2012-07-08 21:21:01.833861] <fs_interface.cpp (UnComplete:313)> blk_version not match for blk_id:7 whileuncompleting
+ERROR [2012-07-08 21:21:01.834211] <fs_interface.cpp (Complete:426)> invalid mode for blk_id:6,blk_version:1
+INFO [2012-07-08 21:21:01.834272] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:6,blk_fd:29;meta_fd:30;return_code:1,write_mode:2
+DEBUG [2012-07-08 21:21:01.834306] <fs_interface.cpp (Complete:503)> complete write blk_id:6,!
+INFO [2012-07-08 21:21:01.834438] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:7,blk_fd:31;meta_fd:32;return_code:1,write_mode:2
+ERROR [2012-07-08 21:21:01.834473] <fs_interface.cpp (Complete:450)> complete mode not match  blk_id:7!
+ERROR [2012-07-08 21:21:01.834482] <fs_interface.cpp (Complete:443)> blk_version not match for blk_id:7 whilecompleting
+INFO [2012-07-08 21:21:01.834857] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:6,blk_fd:23;meta_fd:33;return_code:1,write_mode:2
+INFO [2012-07-08 21:21:01.834945] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:7,blk_fd:35;meta_fd:36;return_code:1,write_mode:0
+INFO [2012-07-08 21:21:01.835014] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:8,blk_fd:37;meta_fd:38;return_code:1,write_mode:1
+INFO [2012-07-08 21:21:02.836937] <fs_interface.cpp (CheckBlock:564)> come into check script. blk_id3
+INFO [2012-07-08 21:21:02.836963] <fs_interface.cpp (CheckBlock:598)> come into KReadMode
+INFO [2012-07-08 21:21:02.836981] <fs_interface.cpp (CheckBlock:608)> erase by read 
+INFO [2012-07-08 21:21:02.836988] <fs_interface.cpp (CheckBlock:564)> come into check script. blk_id6
+INFO [2012-07-08 21:21:02.836994] <fs_interface.cpp (CheckBlock:578)> come into *writeMode
+INFO [2012-07-08 21:21:02.837101] <fs_interface.cpp (CheckBlock:589)> close endpoint;blkid:6,fd:-1
+INFO [2012-07-08 21:21:02.837111] <fs_interface.cpp (CheckBlock:564)> come into check script. blk_id7
+INFO [2012-07-08 21:21:02.837118] <fs_interface.cpp (CheckBlock:578)> come into *writeMode
+INFO [2012-07-08 21:21:02.837196] <fs_interface.cpp (CheckBlock:589)> close endpoint;blkid:7,fd:-1
+INFO [2012-07-08 21:21:02.837206] <fs_interface.cpp (CheckBlock:564)> come into check script. blk_id8
+INFO [2012-07-08 21:21:02.837213] <fs_interface.cpp (CheckBlock:578)> come into *writeMode
+INFO [2012-07-08 21:21:02.837268] <fs_interface.cpp (CheckBlock:589)> close endpoint;blkid:8,fd:-1
+ERROR [2012-07-08 21:25:27.677561] <fs_interface.cpp (PrepareRead:103)> on going;prep read:blk_length:1680829294;blk_id:4,block_version:2;
+INFO [2012-07-08 21:25:27.678391] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:7,blk_fd:5;meta_fd:6;return_code:1,write_mode:0
+ERROR [2012-07-08 21:25:27.678516] <fs_interface.cpp (PrepareRead:103)> on going;prep read:blk_length:0;blk_id:7,block_version:1;
+INFO [2012-07-08 21:25:27.678642] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:8,blk_fd:8;meta_fd:9;return_code:1,write_mode:2
+ERROR [2012-07-08 21:25:27.678687] <fs_interface.cpp (PrepareRead:103)> on going;prep read:blk_length:1647277171;blk_id:8,block_version:1;
+INFO [2012-07-08 21:25:27.678804] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:9,blk_fd:10;meta_fd:11;return_code:1,write_mode:1
+ERROR [2012-07-08 21:25:27.678869] <fs_interface.cpp (PrepareRead:103)> on going;prep read:blk_length:0;blk_id:9,block_version:1;
+INFO [2012-07-08 21:25:27.679152] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:1
+ERROR [2012-07-08 21:25:27.679166] <fs_interface.cpp (PrepareWrite:262)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-08 21:25:27.679374] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:0
+ERROR [2012-07-08 21:25:27.679386] <fs_interface.cpp (PrepareWrite:262)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-08 21:25:27.679592] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-08 21:25:27.679604] <fs_interface.cpp (PrepareWrite:262)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-08 21:25:27.679811] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-08 21:25:27.679823] <fs_interface.cpp (PrepareWrite:262)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-08 21:25:27.679930] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:4,blk_fd:12;meta_fd:13;return_code:1,write_mode:2
+INFO [2012-07-08 21:25:27.680071] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:4,blk_fd:14;meta_fd:15;return_code:1,write_mode:2
+INFO [2012-07-08 21:25:27.680885] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:6,blk_fd:7;meta_fd:16;return_code:1,write_mode:2
+ERROR [2012-07-08 21:25:27.680992] <fs_interface.cpp (PrepareRead:103)> on going;prep read:blk_length:0;blk_id:6,block_version:1;
+INFO [2012-07-08 21:25:27.681108] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:9,blk_fd:18;meta_fd:19;return_code:1,write_mode:2
+ERROR [2012-07-08 21:25:27.681160] <fs_interface.cpp (PrepareRead:103)> on going;prep read:blk_length:1647277171;blk_id:9,block_version:1;
+INFO [2012-07-08 21:25:27.682020] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:6,blk_fd:17;meta_fd:22;return_code:1,write_mode:2
+ERROR [2012-07-08 21:25:27.682124] <fs_interface.cpp (GetBlockStatus:275)> status=NULL for blk_id:6
+ERROR [2012-07-08 21:25:27.682847] <fs_interface.cpp (UnComplete:297)> invalid mode for blk_id:6,blk_version:1
+INFO [2012-07-08 21:25:27.682966] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:6,blk_fd:24;meta_fd:25;return_code:1,write_mode:2
+DEBUG [2012-07-08 21:25:27.683008] <fs_interface.cpp (UnComplete:378)> complete write blk_id:6,!
+INFO [2012-07-08 21:25:27.684135] <fs_interface.cpp (UnComplete:391)>  write close endpoint;blkid:6,fd:-1
+INFO [2012-07-08 21:25:27.684378] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:7,blk_fd:27;meta_fd:28;return_code:1,write_mode:2
+ERROR [2012-07-08 21:25:27.684404] <fs_interface.cpp (UnComplete:328)> uncomplete mode not match  blk_id:7!
+ERROR [2012-07-08 21:25:27.684415] <fs_interface.cpp (UnComplete:313)> blk_version not match for blk_id:7 whileuncompleting
+ERROR [2012-07-08 21:25:27.685180] <fs_interface.cpp (Complete:426)> invalid mode for blk_id:6,blk_version:1
+INFO [2012-07-08 21:25:27.685255] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:6,blk_fd:29;meta_fd:30;return_code:1,write_mode:2
+DEBUG [2012-07-08 21:25:27.685297] <fs_interface.cpp (Complete:503)> complete write blk_id:6,!
+INFO [2012-07-08 21:25:27.685452] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:7,blk_fd:31;meta_fd:32;return_code:1,write_mode:2
+ERROR [2012-07-08 21:25:27.685493] <fs_interface.cpp (Complete:450)> complete mode not match  blk_id:7!
+ERROR [2012-07-08 21:25:27.685505] <fs_interface.cpp (Complete:443)> blk_version not match for blk_id:7 whilecompleting
+INFO [2012-07-08 21:25:27.686240] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:6,blk_fd:23;meta_fd:33;return_code:1,write_mode:2
+INFO [2012-07-08 21:25:27.686349] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:7,blk_fd:35;meta_fd:36;return_code:1,write_mode:0
+INFO [2012-07-08 21:25:27.686445] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:8,blk_fd:37;meta_fd:38;return_code:1,write_mode:1
+INFO [2012-07-08 21:25:28.689551] <fs_interface.cpp (CheckBlock:564)> come into check script. blk_id3
+INFO [2012-07-08 21:25:28.689578] <fs_interface.cpp (CheckBlock:598)> come into KReadMode
+INFO [2012-07-08 21:25:28.689598] <fs_interface.cpp (CheckBlock:608)> erase by read 
+INFO [2012-07-08 21:25:28.689605] <fs_interface.cpp (CheckBlock:564)> come into check script. blk_id6
+INFO [2012-07-08 21:25:28.689611] <fs_interface.cpp (CheckBlock:578)> come into *writeMode
+INFO [2012-07-08 21:25:28.689872] <fs_interface.cpp (CheckBlock:589)> close endpoint;blkid:6,fd:-1
+INFO [2012-07-08 21:25:28.689887] <fs_interface.cpp (CheckBlock:564)> come into check script. blk_id7
+INFO [2012-07-08 21:25:28.689895] <fs_interface.cpp (CheckBlock:578)> come into *writeMode
+INFO [2012-07-08 21:25:28.690091] <fs_interface.cpp (CheckBlock:589)> close endpoint;blkid:7,fd:-1
+INFO [2012-07-08 21:25:28.690103] <fs_interface.cpp (CheckBlock:564)> come into check script. blk_id8
+INFO [2012-07-08 21:25:28.690110] <fs_interface.cpp (CheckBlock:578)> come into *writeMode
+INFO [2012-07-08 21:25:28.690393] <fs_interface.cpp (CheckBlock:589)> close endpoint;blkid:8,fd:-1
+DEBUG [2012-07-08 21:44:41.516050] <task_process.cpp (NSTaskProcessor:1346)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 21:44:41.516099] <task_process.cpp (SyncTaskProcessor:1566)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 21:44:41.516546] <dataserver_impl.cpp (Init:120)> dataserver_impl init done!!
+DEBUG [2012-07-08 21:46:38.624241] <task_process.cpp (NSTaskProcessor:1346)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 21:46:38.624287] <task_process.cpp (SyncTaskProcessor:1566)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 21:46:38.624730] <dataserver_impl.cpp (Init:119)> dataserver_impl init done!!
+DEBUG [2012-07-08 21:48:11.373609] <task_process.cpp (NSTaskProcessor:1346)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 21:48:11.373657] <task_process.cpp (SyncTaskProcessor:1566)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 21:48:11.374096] <dataserver_impl.cpp (Init:119)> dataserver_impl init done!!
+DEBUG [2012-07-08 21:48:53.874612] <task_process.cpp (NSTaskProcessor:1346)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 21:48:53.874659] <task_process.cpp (SyncTaskProcessor:1566)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 21:48:53.874985] <dataserver_impl.cpp (Init:119)> dataserver_impl init done!!
+DEBUG [2012-07-08 21:51:26.142195] <task_process.cpp (NSTaskProcessor:1346)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 21:51:26.142244] <task_process.cpp (SyncTaskProcessor:1566)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 21:51:26.142686] <dataserver_impl.cpp (Init:119)> dataserver_impl init done!!
+DEBUG [2012-07-08 21:54:26.369492] <task_process.cpp (NSTaskProcessor:1346)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 21:54:26.369543] <task_process.cpp (SyncTaskProcessor:1566)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 21:54:26.369982] <dataserver_impl.cpp (Init:119)> dataserver_impl init done!!
+INFO [2012-07-08 21:54:26.370323] <dataserver_impl.cpp (StartThreads:164)> start client thread 0 success
+INFO [2012-07-08 21:54:26.370380] <dataserver_impl.cpp (StartThreads:164)> start client thread 1 success
+INFO [2012-07-08 21:54:26.370415] <dataserver_impl.cpp (StartThreads:164)> start client thread 2 success
+DEBUG [2012-07-08 21:55:49.596615] <task_process.cpp (NSTaskProcessor:1346)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 21:55:49.596663] <task_process.cpp (SyncTaskProcessor:1566)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 21:55:49.596990] <dataserver_impl.cpp (Init:119)> dataserver_impl init done!!
+INFO [2012-07-08 21:55:49.597207] <dataserver_impl.cpp (StartThreads:164)> start client thread 0 success
+INFO [2012-07-08 21:55:49.597273] <dataserver_impl.cpp (StartThreads:164)> start client thread 1 success
+INFO [2012-07-08 21:55:49.597308] <dataserver_impl.cpp (StartThreads:164)> start client thread 2 success
+INFO [2012-07-08 21:55:49.597358] <dataserver_impl.cpp (StartThreads:164)> start client thread 3 success
+INFO [2012-07-08 21:55:49.597393] <dataserver_impl.cpp (StartThreads:164)> start client thread 4 success
+DEBUG [2012-07-08 21:58:12.482714] <task_process.cpp (NSTaskProcessor:1346)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 21:58:12.482761] <task_process.cpp (SyncTaskProcessor:1566)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 21:58:12.483199] <dataserver_impl.cpp (Init:119)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:00:19.649337] <task_process.cpp (NSTaskProcessor:1346)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 22:00:19.649384] <task_process.cpp (SyncTaskProcessor:1566)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 22:00:19.649701] <dataserver_impl.cpp (Init:119)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:02:21.094685] <task_process.cpp (NSTaskProcessor:1346)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 22:02:21.094731] <task_process.cpp (SyncTaskProcessor:1566)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 22:02:21.095164] <dataserver_impl.cpp (Init:119)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:03:40.981849] <task_process.cpp (NSTaskProcessor:1346)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 22:03:40.981901] <task_process.cpp (SyncTaskProcessor:1566)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 22:03:40.982341] <dataserver_impl.cpp (Init:119)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:04:28.300683] <task_process.cpp (NSTaskProcessor:1346)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 22:04:28.300728] <task_process.cpp (SyncTaskProcessor:1566)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 22:04:28.301222] <dataserver_impl.cpp (Init:119)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:05:57.947124] <task_process.cpp (NSTaskProcessor:1346)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 22:05:57.947173] <task_process.cpp (SyncTaskProcessor:1566)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 22:05:57.947611] <dataserver_impl.cpp (Init:119)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:07:49.634615] <task_process.cpp (NSTaskProcessor:1346)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 22:07:49.634663] <task_process.cpp (SyncTaskProcessor:1566)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 22:07:49.635000] <dataserver_impl.cpp (Init:119)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:07:49.635173] <task_process.cpp (NSTaskProcessor:1346)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 22:07:49.635203] <task_process.cpp (SyncTaskProcessor:1566)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 22:07:49.635421] <dataserver_impl.cpp (Init:119)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:07:49.635555] <task_process.cpp (NSTaskProcessor:1346)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 22:07:49.635585] <task_process.cpp (SyncTaskProcessor:1566)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 22:07:49.635806] <dataserver_impl.cpp (Init:119)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:07:49.635939] <task_process.cpp (NSTaskProcessor:1346)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 22:07:49.635969] <task_process.cpp (SyncTaskProcessor:1566)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 22:07:49.636199] <dataserver_impl.cpp (Init:119)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:11:16.493306] <task_process.cpp (NSTaskProcessor:1346)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 22:11:16.493355] <task_process.cpp (SyncTaskProcessor:1566)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 22:11:16.493871] <dataserver_impl.cpp (Init:119)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:12:24.938980] <task_process.cpp (NSTaskProcessor:1346)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 22:12:24.939028] <task_process.cpp (SyncTaskProcessor:1566)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 22:12:24.939476] <dataserver_impl.cpp (Init:119)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:14:37.160448] <task_process.cpp (NSTaskProcessor:1346)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 22:14:37.160500] <task_process.cpp (SyncTaskProcessor:1566)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 22:14:37.160936] <dataserver_impl.cpp (Init:128)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:14:37.160954] <dataserver_impl.cpp (~DataServerImpl:36)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:14:37.160964] <dataserver_impl.cpp (~DataServerImpl:41)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:14:37.160973] <dataserver_impl.cpp (~DataServerImpl:46)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:14:37.160982] <dataserver_impl.cpp (~DataServerImpl:51)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:14:37.160991] <dataserver_impl.cpp (~DataServerImpl:56)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:14:37.161000] <dataserver_impl.cpp (~DataServerImpl:61)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:14:37.161008] <dataserver_impl.cpp (~DataServerImpl:66)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:14:37.161047] <dataserver_impl.cpp (~DataServerImpl:71)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:14:37.161086] <dataserver_impl.cpp (~DataServerImpl:76)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:14:37.161193] <dataserver_impl.cpp (~DataServerImpl:36)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:14:37.161225] <dataserver_impl.cpp (~DataServerImpl:41)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:14:37.161234] <dataserver_impl.cpp (~DataServerImpl:46)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:14:37.161242] <dataserver_impl.cpp (~DataServerImpl:51)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:14:37.161251] <dataserver_impl.cpp (~DataServerImpl:56)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:14:37.161259] <dataserver_impl.cpp (~DataServerImpl:61)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:14:37.161268] <dataserver_impl.cpp (~DataServerImpl:66)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:14:37.161276] <dataserver_impl.cpp (~DataServerImpl:71)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:14:37.161285] <dataserver_impl.cpp (~DataServerImpl:76)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:16:54.528205] <task_process.cpp (NSTaskProcessor:1346)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 22:16:54.528254] <task_process.cpp (SyncTaskProcessor:1566)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-08 22:16:54.528704] <dataserver_impl.cpp (Init:129)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:16:54.528720] <dataserver_impl.cpp (~DataServerImpl:36)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:16:54.528728] <dataserver_impl.cpp (~DataServerImpl:41)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:16:54.528735] <dataserver_impl.cpp (~DataServerImpl:46)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:16:54.528741] <dataserver_impl.cpp (~DataServerImpl:51)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:16:54.528748] <dataserver_impl.cpp (~DataServerImpl:56)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:16:54.528754] <dataserver_impl.cpp (~DataServerImpl:61)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:16:54.528761] <dataserver_impl.cpp (~DataServerImpl:66)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:16:54.528791] <dataserver_impl.cpp (~DataServerImpl:71)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:16:54.528821] <dataserver_impl.cpp (~DataServerImpl:76)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:16:54.528834] <dataserver_impl.cpp (~DataServerImpl:78)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:16:54.528984] <dataserver_impl.cpp (~DataServerImpl:36)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:16:54.529011] <dataserver_impl.cpp (~DataServerImpl:41)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:16:54.529018] <dataserver_impl.cpp (~DataServerImpl:46)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:16:54.529024] <dataserver_impl.cpp (~DataServerImpl:51)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:16:54.529030] <dataserver_impl.cpp (~DataServerImpl:56)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:16:54.529036] <dataserver_impl.cpp (~DataServerImpl:61)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:16:54.529042] <dataserver_impl.cpp (~DataServerImpl:66)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:16:54.529066] <dataserver_impl.cpp (~DataServerImpl:71)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:16:54.529073] <dataserver_impl.cpp (~DataServerImpl:76)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:16:54.529080] <dataserver_impl.cpp (~DataServerImpl:78)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:16:54.529201] <dataserver_impl.cpp (~DataServerImpl:36)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:16:54.529228] <dataserver_impl.cpp (~DataServerImpl:41)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:16:54.529234] <dataserver_impl.cpp (~DataServerImpl:46)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:16:54.529240] <dataserver_impl.cpp (~DataServerImpl:51)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:16:54.529246] <dataserver_impl.cpp (~DataServerImpl:56)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:16:54.529252] <dataserver_impl.cpp (~DataServerImpl:61)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:16:54.529258] <dataserver_impl.cpp (~DataServerImpl:66)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:16:54.529264] <dataserver_impl.cpp (~DataServerImpl:71)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:16:54.529270] <dataserver_impl.cpp (~DataServerImpl:76)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:16:54.529276] <dataserver_impl.cpp (~DataServerImpl:78)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:16:54.529401] <dataserver_impl.cpp (~DataServerImpl:36)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:16:54.529427] <dataserver_impl.cpp (~DataServerImpl:41)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:16:54.529434] <dataserver_impl.cpp (~DataServerImpl:46)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:16:54.529440] <dataserver_impl.cpp (~DataServerImpl:51)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:16:54.529446] <dataserver_impl.cpp (~DataServerImpl:56)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:16:54.529452] <dataserver_impl.cpp (~DataServerImpl:61)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:16:54.529458] <dataserver_impl.cpp (~DataServerImpl:66)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:16:54.529464] <dataserver_impl.cpp (~DataServerImpl:71)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:16:54.529470] <dataserver_impl.cpp (~DataServerImpl:76)> dataserver_impl init done!!
+DEBUG [2012-07-08 22:16:54.529476] <dataserver_impl.cpp (~DataServerImpl:78)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:11:02.102424] <task_process.cpp (NSTaskProcessor:1346)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-09 08:11:02.102475] <task_process.cpp (SyncTaskProcessor:1566)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-09 08:11:02.102814] <dataserver_impl.cpp (Init:129)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:15:09.925135] <task_process.cpp (NSTaskProcessor:1346)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-09 08:15:09.925224] <task_process.cpp (SyncTaskProcessor:1566)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-09 08:15:09.925812] <dataserver_impl.cpp (Init:129)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:15:09.925871] <dataserver_impl.cpp (~DataServerImpl:36)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:15:09.925884] <dataserver_impl.cpp (~DataServerImpl:41)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:15:09.925893] <dataserver_impl.cpp (~DataServerImpl:46)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:15:09.925902] <dataserver_impl.cpp (~DataServerImpl:51)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:15:09.925911] <dataserver_impl.cpp (~DataServerImpl:56)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:15:09.925920] <dataserver_impl.cpp (~DataServerImpl:61)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:15:09.925932] <dataserver_impl.cpp (~DataServerImpl:66)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:15:09.925968] <dataserver_impl.cpp (~DataServerImpl:71)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:15:09.926007] <dataserver_impl.cpp (~DataServerImpl:76)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:15:09.926055] <dataserver_impl.cpp (~DataServerImpl:78)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:19:13.741456] <task_process.cpp (NSTaskProcessor:1346)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-09 08:19:13.741507] <task_process.cpp (SyncTaskProcessor:1566)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-09 08:19:13.742093] <dataserver_impl.cpp (Init:129)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:24:25.313191] <task_process.cpp (NSTaskProcessor:1346)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-09 08:24:25.313243] <task_process.cpp (SyncTaskProcessor:1566)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-09 08:24:25.313585] <dataserver_impl.cpp (Init:129)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:25:09.903386] <task_process.cpp (NSTaskProcessor:1346)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-09 08:25:09.903436] <task_process.cpp (SyncTaskProcessor:1566)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-09 08:25:09.903870] <dataserver_impl.cpp (Init:129)> dataserver_impl init done!!
+INFO [2012-07-09 08:25:09.904036] <dataserver_net_handler.cpp (OnConnected:32)> OnConnected
+INFO [2012-07-09 08:25:09.904201] <dataserver_net_handler.cpp (OnConnected:32)> OnConnected
+INFO [2012-07-09 08:25:09.904325] <dataserver_net_handler.cpp (OnClose:204)> OnClose error code:0
+DEBUG [2012-07-09 08:27:31.245135] <task_process.cpp (NSTaskProcessor:1346)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-09 08:27:31.245191] <task_process.cpp (SyncTaskProcessor:1566)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-09 08:27:31.245745] <dataserver_impl.cpp (Init:129)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:27:31.245763] <dataserver_impl.cpp (~DataServerImpl:36)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:27:31.245774] <dataserver_impl.cpp (~DataServerImpl:41)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:27:31.245783] <dataserver_impl.cpp (~DataServerImpl:46)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:27:31.245792] <dataserver_impl.cpp (~DataServerImpl:51)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:27:31.245801] <dataserver_impl.cpp (~DataServerImpl:56)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:27:31.245810] <dataserver_impl.cpp (~DataServerImpl:61)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:27:31.245819] <dataserver_impl.cpp (~DataServerImpl:66)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:27:31.245857] <dataserver_impl.cpp (~DataServerImpl:71)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:27:31.245896] <dataserver_impl.cpp (~DataServerImpl:76)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:27:31.245914] <dataserver_impl.cpp (~DataServerImpl:78)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:27:31.246102] <dataserver_impl.cpp (~DataServerImpl:36)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:27:31.246134] <dataserver_impl.cpp (~DataServerImpl:41)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:27:31.246143] <dataserver_impl.cpp (~DataServerImpl:46)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:27:31.246151] <dataserver_impl.cpp (~DataServerImpl:51)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:27:31.246160] <dataserver_impl.cpp (~DataServerImpl:56)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:27:31.246168] <dataserver_impl.cpp (~DataServerImpl:61)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:27:31.246176] <dataserver_impl.cpp (~DataServerImpl:66)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:27:31.246185] <dataserver_impl.cpp (~DataServerImpl:71)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:27:31.246193] <dataserver_impl.cpp (~DataServerImpl:76)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:27:31.246201] <dataserver_impl.cpp (~DataServerImpl:78)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:27:31.246355] <dataserver_impl.cpp (~DataServerImpl:36)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:27:31.246385] <dataserver_impl.cpp (~DataServerImpl:41)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:27:31.246394] <dataserver_impl.cpp (~DataServerImpl:46)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:27:31.246402] <dataserver_impl.cpp (~DataServerImpl:51)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:27:31.246434] <dataserver_impl.cpp (~DataServerImpl:56)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:27:31.246444] <dataserver_impl.cpp (~DataServerImpl:61)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:27:31.246452] <dataserver_impl.cpp (~DataServerImpl:66)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:27:31.246461] <dataserver_impl.cpp (~DataServerImpl:71)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:27:31.246469] <dataserver_impl.cpp (~DataServerImpl:76)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:27:31.246477] <dataserver_impl.cpp (~DataServerImpl:78)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:27:31.246643] <dataserver_impl.cpp (~DataServerImpl:36)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:27:31.246675] <dataserver_impl.cpp (~DataServerImpl:41)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:27:31.246684] <dataserver_impl.cpp (~DataServerImpl:46)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:27:31.246692] <dataserver_impl.cpp (~DataServerImpl:51)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:27:31.246701] <dataserver_impl.cpp (~DataServerImpl:56)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:27:31.246709] <dataserver_impl.cpp (~DataServerImpl:61)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:27:31.246718] <dataserver_impl.cpp (~DataServerImpl:66)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:27:31.246726] <dataserver_impl.cpp (~DataServerImpl:71)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:27:31.246734] <dataserver_impl.cpp (~DataServerImpl:76)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:27:31.246743] <dataserver_impl.cpp (~DataServerImpl:78)> dataserver_impl init done!!
+ERROR [2012-07-09 08:44:10.347077] <fs_interface.cpp (PrepareRead:103)> on going;prep read:blk_length:1680829294;blk_id:4,block_version:2;
+INFO [2012-07-09 08:44:10.347644] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:7,blk_fd:5;meta_fd:6;return_code:1,write_mode:0
+ERROR [2012-07-09 08:44:10.347763] <fs_interface.cpp (PrepareRead:103)> on going;prep read:blk_length:0;blk_id:7,block_version:1;
+INFO [2012-07-09 08:44:10.347888] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:8,blk_fd:8;meta_fd:9;return_code:1,write_mode:2
+ERROR [2012-07-09 08:44:10.347932] <fs_interface.cpp (PrepareRead:103)> on going;prep read:blk_length:1647277171;blk_id:8,block_version:1;
+INFO [2012-07-09 08:44:10.348051] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:9,blk_fd:10;meta_fd:11;return_code:1,write_mode:1
+ERROR [2012-07-09 08:44:10.348094] <fs_interface.cpp (PrepareRead:103)> on going;prep read:blk_length:0;blk_id:9,block_version:1;
+INFO [2012-07-09 08:44:10.348211] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:1
+ERROR [2012-07-09 08:44:10.348222] <fs_interface.cpp (PrepareWrite:262)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-09 08:44:10.348260] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:0
+ERROR [2012-07-09 08:44:10.348270] <fs_interface.cpp (PrepareWrite:262)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-09 08:44:10.348307] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-09 08:44:10.348317] <fs_interface.cpp (PrepareWrite:262)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-09 08:44:10.348354] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-09 08:44:10.348364] <fs_interface.cpp (PrepareWrite:262)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-09 08:44:10.348467] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:4,blk_fd:12;meta_fd:13;return_code:1,write_mode:2
+INFO [2012-07-09 08:44:10.348600] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:4,blk_fd:14;meta_fd:15;return_code:1,write_mode:2
+INFO [2012-07-09 08:44:10.349088] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:6,blk_fd:7;meta_fd:16;return_code:1,write_mode:2
+ERROR [2012-07-09 08:44:10.349217] <fs_interface.cpp (PrepareRead:103)> on going;prep read:blk_length:0;blk_id:6,block_version:1;
+INFO [2012-07-09 08:44:10.349322] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:9,blk_fd:18;meta_fd:19;return_code:1,write_mode:2
+ERROR [2012-07-09 08:44:10.349357] <fs_interface.cpp (PrepareRead:103)> on going;prep read:blk_length:1647277171;blk_id:9,block_version:1;
+INFO [2012-07-09 08:44:10.349838] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:6,blk_fd:17;meta_fd:22;return_code:1,write_mode:2
+ERROR [2012-07-09 08:44:10.349922] <fs_interface.cpp (GetBlockStatus:275)> status=NULL for blk_id:6
+ERROR [2012-07-09 08:44:10.350297] <fs_interface.cpp (UnComplete:297)> invalid mode for blk_id:6,blk_version:1
+INFO [2012-07-09 08:44:10.350394] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:6,blk_fd:24;meta_fd:25;return_code:1,write_mode:2
+DEBUG [2012-07-09 08:44:10.350429] <fs_interface.cpp (UnComplete:378)> complete write blk_id:6,!
+INFO [2012-07-09 08:44:10.351185] <fs_interface.cpp (UnComplete:391)>  write close endpoint;blkid:6,fd:-1
+INFO [2012-07-09 08:44:10.351319] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:7,blk_fd:27;meta_fd:28;return_code:1,write_mode:2
+ERROR [2012-07-09 08:44:10.351345] <fs_interface.cpp (UnComplete:328)> uncomplete mode not match  blk_id:7!
+ERROR [2012-07-09 08:44:10.351354] <fs_interface.cpp (UnComplete:313)> blk_version not match for blk_id:7 whileuncompleting
+ERROR [2012-07-09 08:44:10.351899] <fs_interface.cpp (Complete:426)> invalid mode for blk_id:6,blk_version:1
+INFO [2012-07-09 08:44:10.351961] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:6,blk_fd:29;meta_fd:30;return_code:1,write_mode:2
+DEBUG [2012-07-09 08:44:10.351996] <fs_interface.cpp (Complete:503)> complete write blk_id:6,!
+INFO [2012-07-09 08:44:10.352127] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:7,blk_fd:31;meta_fd:32;return_code:1,write_mode:2
+ERROR [2012-07-09 08:44:10.352162] <fs_interface.cpp (Complete:450)> complete mode not match  blk_id:7!
+ERROR [2012-07-09 08:44:10.352171] <fs_interface.cpp (Complete:443)> blk_version not match for blk_id:7 whilecompleting
+INFO [2012-07-09 08:44:10.352740] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:6,blk_fd:23;meta_fd:33;return_code:1,write_mode:2
+INFO [2012-07-09 08:44:10.352825] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:7,blk_fd:35;meta_fd:36;return_code:1,write_mode:0
+INFO [2012-07-09 08:44:10.352892] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:8,blk_fd:37;meta_fd:38;return_code:1,write_mode:1
+INFO [2012-07-09 08:44:11.354556] <fs_interface.cpp (CheckBlock:564)> come into check script. blk_id3
+INFO [2012-07-09 08:44:11.354580] <fs_interface.cpp (CheckBlock:598)> come into KReadMode
+INFO [2012-07-09 08:44:11.354601] <fs_interface.cpp (CheckBlock:608)> erase by read 
+INFO [2012-07-09 08:44:11.354610] <fs_interface.cpp (CheckBlock:564)> come into check script. blk_id6
+INFO [2012-07-09 08:44:11.354619] <fs_interface.cpp (CheckBlock:578)> come into *writeMode
+INFO [2012-07-09 08:44:11.354944] <fs_interface.cpp (CheckBlock:589)> close endpoint;blkid:6,fd:-1
+INFO [2012-07-09 08:44:11.354960] <fs_interface.cpp (CheckBlock:564)> come into check script. blk_id7
+INFO [2012-07-09 08:44:11.354969] <fs_interface.cpp (CheckBlock:578)> come into *writeMode
+INFO [2012-07-09 08:44:11.355229] <fs_interface.cpp (CheckBlock:589)> close endpoint;blkid:7,fd:-1
+INFO [2012-07-09 08:44:11.355244] <fs_interface.cpp (CheckBlock:564)> come into check script. blk_id8
+INFO [2012-07-09 08:44:11.355253] <fs_interface.cpp (CheckBlock:578)> come into *writeMode
+INFO [2012-07-09 08:44:11.355634] <fs_interface.cpp (CheckBlock:589)> close endpoint;blkid:8,fd:-1
+ERROR [2012-07-09 08:45:10.419680] <fs_interface.cpp (PrepareRead:103)> on going;prep read:blk_length:1680829294;blk_id:4,block_version:2;
+DEBUG [2012-07-09 08:46:51.440931] <task_process.cpp (NSTaskProcessor:1346)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-09 08:46:51.440997] <task_process.cpp (SyncTaskProcessor:1566)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-09 08:46:51.441440] <dataserver_impl.cpp (Init:129)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:46:51.441455] <dataserver_impl.cpp (~DataServerImpl:36)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:46:51.441463] <dataserver_impl.cpp (~DataServerImpl:41)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:46:51.441470] <dataserver_impl.cpp (~DataServerImpl:46)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:46:51.441476] <dataserver_impl.cpp (~DataServerImpl:51)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:46:51.441483] <dataserver_impl.cpp (~DataServerImpl:56)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:46:51.441489] <dataserver_impl.cpp (~DataServerImpl:61)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:46:51.441496] <dataserver_impl.cpp (~DataServerImpl:66)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:46:51.441526] <dataserver_impl.cpp (~DataServerImpl:71)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:46:51.441534] <dataserver_impl.cpp (~DataServerImpl:76)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:46:51.441547] <dataserver_impl.cpp (~DataServerImpl:78)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:46:51.441698] <dataserver_impl.cpp (~DataServerImpl:36)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:46:51.441729] <dataserver_impl.cpp (~DataServerImpl:41)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:46:51.441736] <dataserver_impl.cpp (~DataServerImpl:46)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:46:51.441742] <dataserver_impl.cpp (~DataServerImpl:51)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:46:51.441748] <dataserver_impl.cpp (~DataServerImpl:56)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:46:51.441754] <dataserver_impl.cpp (~DataServerImpl:61)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:46:51.441761] <dataserver_impl.cpp (~DataServerImpl:66)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:46:51.441767] <dataserver_impl.cpp (~DataServerImpl:71)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:46:51.441773] <dataserver_impl.cpp (~DataServerImpl:76)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:46:51.441779] <dataserver_impl.cpp (~DataServerImpl:78)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:46:51.441901] <dataserver_impl.cpp (~DataServerImpl:36)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:46:51.441928] <dataserver_impl.cpp (~DataServerImpl:41)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:46:51.441934] <dataserver_impl.cpp (~DataServerImpl:46)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:46:51.441940] <dataserver_impl.cpp (~DataServerImpl:51)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:46:51.441947] <dataserver_impl.cpp (~DataServerImpl:56)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:46:51.441953] <dataserver_impl.cpp (~DataServerImpl:61)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:46:51.441959] <dataserver_impl.cpp (~DataServerImpl:66)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:46:51.441965] <dataserver_impl.cpp (~DataServerImpl:71)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:46:51.441971] <dataserver_impl.cpp (~DataServerImpl:76)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:46:51.441977] <dataserver_impl.cpp (~DataServerImpl:78)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:46:51.442103] <dataserver_impl.cpp (~DataServerImpl:36)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:46:51.442129] <dataserver_impl.cpp (~DataServerImpl:41)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:46:51.442135] <dataserver_impl.cpp (~DataServerImpl:46)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:46:51.442142] <dataserver_impl.cpp (~DataServerImpl:51)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:46:51.442148] <dataserver_impl.cpp (~DataServerImpl:56)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:46:51.442154] <dataserver_impl.cpp (~DataServerImpl:61)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:46:51.442160] <dataserver_impl.cpp (~DataServerImpl:66)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:46:51.442175] <dataserver_impl.cpp (~DataServerImpl:71)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:46:51.442182] <dataserver_impl.cpp (~DataServerImpl:76)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:46:51.442188] <dataserver_impl.cpp (~DataServerImpl:78)> dataserver_impl init done!!
+DEBUG [2012-07-09 08:50:46.179266] <task_process.cpp (NSTaskProcessor:1346)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-09 08:50:46.180230] <task_process.cpp (SyncTaskProcessor:1566)> ds_id: 1934101002, rack_id:1
+DEBUG [2012-07-09 08:50:46.180696] <dataserver_impl.cpp (Init:120)> dataserver_impl init done!!
+ERROR [2012-07-09 09:34:32.301222] <fs_interface.cpp (PrepareRead:103)> on going;prep read:blk_length:1680829294;blk_id:4,block_version:2;
+ERROR [2012-07-09 09:35:52.096925] <fs_interface.cpp (PrepareRead:103)> on going;prep read:blk_length:1680829294;blk_id:4,block_version:2;
+INFO [2012-07-09 09:35:52.097629] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:7,blk_fd:5;meta_fd:6;return_code:1,write_mode:0
+ERROR [2012-07-09 09:35:52.097727] <fs_interface.cpp (PrepareRead:103)> on going;prep read:blk_length:0;blk_id:7,block_version:1;
+INFO [2012-07-09 09:35:52.097830] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:8,blk_fd:8;meta_fd:9;return_code:1,write_mode:2
+ERROR [2012-07-09 09:35:52.097867] <fs_interface.cpp (PrepareRead:103)> on going;prep read:blk_length:1647277171;blk_id:8,block_version:1;
+INFO [2012-07-09 09:35:52.097967] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:9,blk_fd:10;meta_fd:11;return_code:1,write_mode:1
+ERROR [2012-07-09 09:35:52.098003] <fs_interface.cpp (PrepareRead:103)> on going;prep read:blk_length:0;blk_id:9,block_version:1;
+INFO [2012-07-09 09:35:52.098211] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:1
+ERROR [2012-07-09 09:35:52.098222] <fs_interface.cpp (PrepareWrite:262)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-09 09:35:52.098373] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:0
+ERROR [2012-07-09 09:35:52.098383] <fs_interface.cpp (PrepareWrite:262)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-09 09:35:52.098532] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-09 09:35:52.098542] <fs_interface.cpp (PrepareWrite:262)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-09 09:35:52.098691] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-09 09:35:52.098701] <fs_interface.cpp (PrepareWrite:262)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-09 09:35:52.098786] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:4,blk_fd:12;meta_fd:13;return_code:1,write_mode:2
+INFO [2012-07-09 09:35:52.098895] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:4,blk_fd:14;meta_fd:15;return_code:1,write_mode:2
+INFO [2012-07-09 09:35:52.099481] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:6,blk_fd:7;meta_fd:16;return_code:1,write_mode:2
+ERROR [2012-07-09 09:35:52.099563] <fs_interface.cpp (PrepareRead:103)> on going;prep read:blk_length:0;blk_id:6,block_version:1;
+INFO [2012-07-09 09:35:52.099727] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:9,blk_fd:18;meta_fd:19;return_code:1,write_mode:2
+ERROR [2012-07-09 09:35:52.099768] <fs_interface.cpp (PrepareRead:103)> on going;prep read:blk_length:1647277171;blk_id:9,block_version:1;
+INFO [2012-07-09 09:35:52.100479] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:6,blk_fd:17;meta_fd:22;return_code:1,write_mode:2
+ERROR [2012-07-09 09:35:52.100559] <fs_interface.cpp (GetBlockStatus:275)> status=NULL for blk_id:6
+ERROR [2012-07-09 09:35:52.101141] <fs_interface.cpp (UnComplete:297)> invalid mode for blk_id:6,blk_version:1
+INFO [2012-07-09 09:35:52.101237] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:6,blk_fd:24;meta_fd:25;return_code:1,write_mode:2
+DEBUG [2012-07-09 09:35:52.101292] <fs_interface.cpp (UnComplete:378)> complete write blk_id:6,!
+INFO [2012-07-09 09:35:52.102267] <fs_interface.cpp (UnComplete:391)>  write close endpoint;blkid:6,fd:-1
+INFO [2012-07-09 09:35:52.102450] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:7,blk_fd:27;meta_fd:28;return_code:1,write_mode:2
+ERROR [2012-07-09 09:35:52.102472] <fs_interface.cpp (UnComplete:328)> uncomplete mode not match  blk_id:7!
+ERROR [2012-07-09 09:35:52.102480] <fs_interface.cpp (UnComplete:313)> blk_version not match for blk_id:7 whileuncompleting
+ERROR [2012-07-09 09:35:52.103016] <fs_interface.cpp (Complete:426)> invalid mode for blk_id:6,blk_version:1
+INFO [2012-07-09 09:35:52.103079] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:6,blk_fd:29;meta_fd:30;return_code:1,write_mode:2
+DEBUG [2012-07-09 09:35:52.103113] <fs_interface.cpp (Complete:503)> complete write blk_id:6,!
+INFO [2012-07-09 09:35:52.103242] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:7,blk_fd:31;meta_fd:32;return_code:1,write_mode:2
+ERROR [2012-07-09 09:35:52.103283] <fs_interface.cpp (Complete:450)> complete mode not match  blk_id:7!
+ERROR [2012-07-09 09:35:52.103292] <fs_interface.cpp (Complete:443)> blk_version not match for blk_id:7 whilecompleting
+INFO [2012-07-09 09:35:52.103858] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:6,blk_fd:23;meta_fd:33;return_code:1,write_mode:2
+INFO [2012-07-09 09:35:52.103942] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:7,blk_fd:35;meta_fd:36;return_code:1,write_mode:0
+INFO [2012-07-09 09:35:52.104009] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:8,blk_fd:37;meta_fd:38;return_code:1,write_mode:1
+INFO [2012-07-09 09:35:53.104407] <fs_interface.cpp (CheckBlock:564)> come into check script. blk_id3
+INFO [2012-07-09 09:35:53.104433] <fs_interface.cpp (CheckBlock:598)> come into KReadMode
+INFO [2012-07-09 09:35:53.104454] <fs_interface.cpp (CheckBlock:608)> erase by read 
+INFO [2012-07-09 09:35:53.104464] <fs_interface.cpp (CheckBlock:564)> come into check script. blk_id6
+INFO [2012-07-09 09:35:53.104473] <fs_interface.cpp (CheckBlock:578)> come into *writeMode
+INFO [2012-07-09 09:35:53.104791] <fs_interface.cpp (CheckBlock:589)> close endpoint;blkid:6,fd:-1
+INFO [2012-07-09 09:35:53.104807] <fs_interface.cpp (CheckBlock:564)> come into check script. blk_id7
+INFO [2012-07-09 09:35:53.104817] <fs_interface.cpp (CheckBlock:578)> come into *writeMode
+INFO [2012-07-09 09:35:53.105075] <fs_interface.cpp (CheckBlock:589)> close endpoint;blkid:7,fd:-1
+INFO [2012-07-09 09:35:53.105090] <fs_interface.cpp (CheckBlock:564)> come into check script. blk_id8
+INFO [2012-07-09 09:35:53.105099] <fs_interface.cpp (CheckBlock:578)> come into *writeMode
+INFO [2012-07-09 09:35:53.105480] <fs_interface.cpp (CheckBlock:589)> close endpoint;blkid:8,fd:-1
+ERROR [2012-07-09 09:41:03.342444] <fs_interface.cpp (PrepareRead:103)> on going;prep read:blk_length:1680829294;blk_id:4,block_version:2;
+INFO [2012-07-09 09:41:03.343079] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:7,blk_fd:5;meta_fd:6;return_code:1,write_mode:0
+ERROR [2012-07-09 09:41:03.343175] <fs_interface.cpp (PrepareRead:103)> on going;prep read:blk_length:0;blk_id:7,block_version:1;
+INFO [2012-07-09 09:41:03.343291] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:8,blk_fd:8;meta_fd:9;return_code:1,write_mode:2
+ERROR [2012-07-09 09:41:03.343328] <fs_interface.cpp (PrepareRead:103)> on going;prep read:blk_length:1647277171;blk_id:8,block_version:1;
+INFO [2012-07-09 09:41:03.343420] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:9,blk_fd:10;meta_fd:11;return_code:1,write_mode:1
+ERROR [2012-07-09 09:41:03.343455] <fs_interface.cpp (PrepareRead:103)> on going;prep read:blk_length:0;blk_id:9,block_version:1;
+INFO [2012-07-09 09:41:03.343668] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:1
+ERROR [2012-07-09 09:41:03.343696] <fs_interface.cpp (PrepareWrite:262)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-09 09:41:03.343853] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:0
+ERROR [2012-07-09 09:41:03.343863] <fs_interface.cpp (PrepareWrite:262)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-09 09:41:03.344014] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-09 09:41:03.344024] <fs_interface.cpp (PrepareWrite:262)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-09 09:41:03.344175] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-09 09:41:03.344184] <fs_interface.cpp (PrepareWrite:262)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-09 09:41:03.344270] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:4,blk_fd:12;meta_fd:13;return_code:1,write_mode:2
+INFO [2012-07-09 09:41:03.344376] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:4,blk_fd:14;meta_fd:15;return_code:1,write_mode:2
+INFO [2012-07-09 09:41:03.344964] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:6,blk_fd:7;meta_fd:16;return_code:1,write_mode:2
+ERROR [2012-07-09 09:41:03.345045] <fs_interface.cpp (PrepareRead:103)> on going;prep read:blk_length:0;blk_id:6,block_version:1;
+INFO [2012-07-09 09:41:03.345137] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:9,blk_fd:18;meta_fd:19;return_code:1,write_mode:2
+ERROR [2012-07-09 09:41:03.345171] <fs_interface.cpp (PrepareRead:103)> on going;prep read:blk_length:1647277171;blk_id:9,block_version:1;
+INFO [2012-07-09 09:41:03.345882] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:6,blk_fd:17;meta_fd:22;return_code:1,write_mode:2
+ERROR [2012-07-09 09:41:03.345966] <fs_interface.cpp (GetBlockStatus:275)> status=NULL for blk_id:6
+ERROR [2012-07-09 09:41:03.346524] <fs_interface.cpp (UnComplete:297)> invalid mode for blk_id:6,blk_version:1
+INFO [2012-07-09 09:41:03.346617] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:6,blk_fd:24;meta_fd:25;return_code:1,write_mode:2
+DEBUG [2012-07-09 09:41:03.346652] <fs_interface.cpp (UnComplete:378)> complete write blk_id:6,!
+INFO [2012-07-09 09:41:03.347531] <fs_interface.cpp (UnComplete:391)>  write close endpoint;blkid:6,fd:-1
+INFO [2012-07-09 09:41:03.347718] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:7,blk_fd:27;meta_fd:28;return_code:1,write_mode:2
+ERROR [2012-07-09 09:41:03.347740] <fs_interface.cpp (UnComplete:328)> uncomplete mode not match  blk_id:7!
+ERROR [2012-07-09 09:41:03.347748] <fs_interface.cpp (UnComplete:313)> blk_version not match for blk_id:7 whileuncompleting
+ERROR [2012-07-09 09:41:03.348282] <fs_interface.cpp (Complete:426)> invalid mode for blk_id:6,blk_version:1
+INFO [2012-07-09 09:41:03.348344] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:6,blk_fd:29;meta_fd:30;return_code:1,write_mode:2
+DEBUG [2012-07-09 09:41:03.348379] <fs_interface.cpp (Complete:503)> complete write blk_id:6,!
+INFO [2012-07-09 09:41:03.348512] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:7,blk_fd:31;meta_fd:32;return_code:1,write_mode:2
+ERROR [2012-07-09 09:41:03.348546] <fs_interface.cpp (Complete:450)> complete mode not match  blk_id:7!
+ERROR [2012-07-09 09:41:03.348556] <fs_interface.cpp (Complete:443)> blk_version not match for blk_id:7 whilecompleting
+INFO [2012-07-09 09:41:03.349187] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:6,blk_fd:23;meta_fd:33;return_code:1,write_mode:2
+INFO [2012-07-09 09:41:03.349272] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:7,blk_fd:35;meta_fd:36;return_code:1,write_mode:0
+INFO [2012-07-09 09:41:03.349339] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:8,blk_fd:37;meta_fd:38;return_code:1,write_mode:1
+INFO [2012-07-09 09:41:04.351858] <fs_interface.cpp (CheckBlock:564)> come into check script. blk_id3
+INFO [2012-07-09 09:41:04.351879] <fs_interface.cpp (CheckBlock:598)> come into KReadMode
+INFO [2012-07-09 09:41:04.351911] <fs_interface.cpp (CheckBlock:608)> erase by read 
+INFO [2012-07-09 09:41:04.351921] <fs_interface.cpp (CheckBlock:564)> come into check script. blk_id6
+INFO [2012-07-09 09:41:04.351930] <fs_interface.cpp (CheckBlock:578)> come into *writeMode
+INFO [2012-07-09 09:41:04.352235] <fs_interface.cpp (CheckBlock:589)> close endpoint;blkid:6,fd:-1
+INFO [2012-07-09 09:41:04.352251] <fs_interface.cpp (CheckBlock:564)> come into check script. blk_id7
+INFO [2012-07-09 09:41:04.352261] <fs_interface.cpp (CheckBlock:578)> come into *writeMode
+INFO [2012-07-09 09:41:04.352521] <fs_interface.cpp (CheckBlock:589)> close endpoint;blkid:7,fd:-1
+INFO [2012-07-09 09:41:04.352535] <fs_interface.cpp (CheckBlock:564)> come into check script. blk_id8
+INFO [2012-07-09 09:41:04.352545] <fs_interface.cpp (CheckBlock:578)> come into *writeMode
+INFO [2012-07-09 09:41:04.352927] <fs_interface.cpp (CheckBlock:589)> close endpoint;blkid:8,fd:-1
+ERROR [2012-07-09 09:41:38.637461] <fs_interface.cpp (PrepareRead:103)> on going;prep read:blk_length:1680829294;blk_id:4,block_version:2;
+INFO [2012-07-09 09:41:38.638149] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:7,blk_fd:5;meta_fd:6;return_code:1,write_mode:0
+ERROR [2012-07-09 09:41:38.638242] <fs_interface.cpp (PrepareRead:103)> on going;prep read:blk_length:0;blk_id:7,block_version:1;
+INFO [2012-07-09 09:41:38.638348] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:8,blk_fd:8;meta_fd:9;return_code:1,write_mode:2
+ERROR [2012-07-09 09:41:38.638381] <fs_interface.cpp (PrepareRead:103)> on going;prep read:blk_length:0;blk_id:8,block_version:1;
+INFO [2012-07-09 09:41:38.638479] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:9,blk_fd:10;meta_fd:11;return_code:1,write_mode:1
+ERROR [2012-07-09 09:41:38.638516] <fs_interface.cpp (PrepareRead:103)> on going;prep read:blk_length:0;blk_id:9,block_version:1;
+INFO [2012-07-09 09:41:38.638728] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:1
+ERROR [2012-07-09 09:41:38.638773] <fs_interface.cpp (PrepareWrite:262)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-09 09:41:38.638950] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:0
+ERROR [2012-07-09 09:41:38.638961] <fs_interface.cpp (PrepareWrite:262)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-09 09:41:38.639114] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-09 09:41:38.639124] <fs_interface.cpp (PrepareWrite:262)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-09 09:41:38.639284] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:3,blk_fd:0;meta_fd:0;return_code:4012,write_mode:2
+ERROR [2012-07-09 09:41:38.639295] <fs_interface.cpp (PrepareWrite:262)> prepare write ret_code:4012, not RET_SUCCESS
+INFO [2012-07-09 09:41:38.639382] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:4,blk_fd:12;meta_fd:13;return_code:1,write_mode:2
+INFO [2012-07-09 09:41:38.639493] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:4,blk_fd:14;meta_fd:15;return_code:1,write_mode:2
+INFO [2012-07-09 09:41:38.640105] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:6,blk_fd:7;meta_fd:16;return_code:1,write_mode:2
+ERROR [2012-07-09 09:41:38.640190] <fs_interface.cpp (PrepareRead:103)> on going;prep read:blk_length:0;blk_id:6,block_version:1;
+INFO [2012-07-09 09:41:38.640281] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:9,blk_fd:18;meta_fd:19;return_code:1,write_mode:2
+ERROR [2012-07-09 09:41:38.640320] <fs_interface.cpp (PrepareRead:103)> on going;prep read:blk_length:0;blk_id:9,block_version:1;
+INFO [2012-07-09 09:41:38.640995] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:6,blk_fd:17;meta_fd:22;return_code:1,write_mode:2
+ERROR [2012-07-09 09:41:38.641074] <fs_interface.cpp (GetBlockStatus:275)> status=NULL for blk_id:6
+ERROR [2012-07-09 09:41:38.641662] <fs_interface.cpp (UnComplete:297)> invalid mode for blk_id:6,blk_version:1
+INFO [2012-07-09 09:41:38.641777] <fs_interface.cpp (PrepareWrite:209)> prepare write blk_id:6,blk_fd:24;meta_fd:25;return_code:1,write_mode:2
+DEBUG [2012-07-09 09:41:38.641844] <fs_interface.cpp (UnComplete:378)> complete write blk_id:6,!
+ERROR [2012-07-09 09:43:37.077878] <fs_interface.cpp (PrepareRead:103)> on going;prep read:blk_length:1680829294;blk_id:4,block_version:2;

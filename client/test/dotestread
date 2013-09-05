@@ -1,0 +1,5 @@
+#!/bin/sh
+while [ 1 ]
+do
+./testread /df/tt 102400
+done

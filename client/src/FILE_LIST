@@ -1,0 +1,89 @@
+Client FileList
+--------------------------------------------------------------------------------
+client.h, client.cpp
+- 对外提供整个文件系统的调用接口
+- client初始化：初始化ClientImpl类
+- 对目录的操作
+    MakeDirectory
+    SetWorkingDir
+    GetListing
+- 对文件的操作
+    Create
+    Open
+    Read
+    Write
+    Close
+    Lseek
+- 对文件和目录的操作
+    Delete
+    GetFileInfo
+
+--------------------------------------------------------------------------------
+client_impl.h, client_impl.cpp
+- 提供对外接口的具体实现，供Client类调用
+- 初始化：初始化Lru缓存、租约线程、日志等，连接NS
+- 提供对外接口相应的调用和相应的与NS或DS交互的函数
+- 与NS交互的函数有
+    MakeDirectory
+    IsValidPath
+    GetListing
+    Create
+    Open
+    Close(不一定会)
+    GetFileInfo
+    DeleteFile
+    RenewLease
+    GetBlockLocationsFromNS
+    AddBlock
+    AbandonBlock
+    Complete
+- 与DS交互的函数有
+    WritePipeline
+    WriteToServer
+    WritePacket
+    WaitForRWPackets
+    ReadBlock
+- conn_handler_用于与NS的连接
+- ds_conn_handler_用于与DS的连接
+
+--------------------------------------------------------------------------------
+client_conf.h, client_conf.cpp
+- 初始化：load配置文件，读取相关属性，为私有变量赋值，并检测配置有效性
+
+--------------------------------------------------------------------------------
+client_net_handler.h, client_net_handler.cpp
+- 主要用于网络包处理
+  提供了统一的模板用于发送数据包，OnReceived等用户处理收到的包
+- RequestToNameServer:用同步的方式向NS发送数据包
+- RequestToDataServer:用同步的方式向DS发送数据包
+- RWRequestToDataServer:异步方式向DS发送数据包
+
+--------------------------------------------------------------------------------
+client_response.h, client_response.cpp
+- 定义ResponseSync类，用于与NS、DS交互时，处理处理数据包和client_data
+
+--------------------------------------------------------------------------------
+client_lease_checker.h, client_lease_checker.cpp
+- 租约线程，如果正在写数据，定时向NS对正在写入的Block续租约
+- 续租时调用ClientImpl中的RenewLease函数向NS发送请求
+
+--------------------------------------------------------------------------------
+client_lru_cache.h, client_lru_cache.cpp
+- 定义了一个LRU缓存，用于存储文件和目录的一些元数据信息。
+  当需要获取元数据时，一般首先向LRU缓存查询，若查询不命中再向NS请求
+- LookupByFileName:根据文件名查询
+- LookupByFileID:根据文件ID查询
+- AddCacheNode:添加一个新的结点
+- AddToFileIDMap:更新文件ID到CacheNode的映射
+
+--------------------------------------------------------------------------------
+client_cache_node.h, client_cache_node.cpp
+- LRU缓存中的结点，一个缓存结点对应一个文件
+- 一般存储有文件名(全路径)、文件ID、文件类型、存入缓存的时间，
+  对普通文件（非目录）还存储有文件长度和部分Block的信息
+
+--------------------------------------------------------------------------------
+client_current_block.h
+- 读写过程中当前Block的一些相关变量
+
+--------------------------------------------------------------------------------

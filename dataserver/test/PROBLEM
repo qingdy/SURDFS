@@ -1,0 +1,19 @@
+1.dataserver_conf:
+析构的时候存在重复delete的问题，这个和单件模式的内存管理有关             已修改
+
+2.dataserver_net_server:
+这个里面判断listen以及connect的返回值的时候，没有考虑为0的情况，虽然amframe不会返回0，但是程序健壮性，应该返回，这个gtest的帮助不大，主要就是测试了逻辑。
+
+3.fs_interface:
+(1) 在prepareread的时候，不管block的长度大小是多少，就从元数据中读16k的数据到内存中，如果实际元数据校验文件没有这么大，就会出现段错误。         已解决（其实这里不会出现的，因为一开始写校验文件的时候就直接写了16k，所以不用担心读出来的数据大小。）
+(2) fs_interface 析构的时候出现段错误，timer析构出现问题(目前只是简单的没有delete fs_interface，后期要做修改的)                               已解决
+(3)几个函数均没有考虑mode非法的情况改如何处理。已解决
+(4) 在返回status的时候应该也要检查mode是否匹配，不光是Block匹配，此外在taskprocess中间会检查src_id.
+(5) 发现task_processor.cpp中间new了streamhandler 却没有delete之，长久下去会造成内存泄露的。  复制的时候好解决，但是写的时候怎么办呢？（用 streamhandler来代替blockstatus中的endpoint？） 解决 // closeendpoint will delete the streamhandler   amframe test don't delete it,either. close的时候有个引用计数，如果引用计数为0 的话 amframe就会delete掉
+(6)  fs_interface 的析构还是有问题，报错的时候报的是锁，应该是定时器没有用好的缘故。 已解决
+
+4.blade_crc
+(1)如果传进来的参数len大于data的实际长度，就会出现段错误，crc——update貌似没有变化啊（是后来看了下有变化的，应该了是因为str比较的时候到\0就结束了）。                         待解决（这个目前解决不了，只能上层调用的时候注意下）
+
+5 dataserver_impl
+(1)析构的时候老是出现段错误,将错误定位到了fs_interface的析构函数上面。  

@@ -1,0 +1,1 @@
+nohup ./testreadblock $1  & 

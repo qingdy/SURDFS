@@ -1,0 +1,131 @@
+/* Sohu R&D 2012
+ * 
+ * File   name: dataserver.h
+ * Description: This file defines  how dataserver runs.
+ * 
+ * Version : 1.0
+ * Author  : @yyy
+ * Date    : 2012-06-28
+ */
+#include "gtest/gtest.h"
+#include "log.h"
+#include "dataserver_net_server.h"
+#include "dataserver_conf.h"
+#include "dataserver_impl.h"
+#include "blade_net_util.h"
+
+using namespace bladestore::common;
+
+namespace bladestore
+{
+namespace dataserver
+{
+class FakeDataServerImpl
+{
+public:
+    FakeDataServerImpl(): ds_h_test_(NULL)
+    {
+        ds_h_test_ = new FakeDSHeartbeatManager(this);
+    }
+    ~FakeDataServerImpl()
+    {
+        if (ds_h_test_) {
+            delete ds_h_test_;
+            ds_h_test_ = NULL;
+        }
+    }
+    FakeDSHeartbeatManager * ds_h_test_;
+};
+
+class  DataServerConfigExtent :public DataServerConfig
+{
+public:
+    set_nameserver_name(string nameserver_name)
+    {
+        nameserver_name_ = nameserver_name;
+    }
+};
+
+class TestDataServerNetServer : public ::testing::Test
+{
+protected:
+    static void SetUpTestCase()
+    {
+        config_ = DataServerConfigExtend::Instance(); 
+        assert(config_);
+        Log *log_ = new pandora::Log(config_->log_path().c_str(), 
+                    config_->log_prefix().c_str(), LL_DEBUG); 
+        assert(log_);
+        log_->set_max_file_size(config_->log_max_size());
+        log_->set_max_file_count(config_->log_file_number());
+
+        ds_impl_ = new DataServerImpl(log_);
+        assert(ds_impl_ != NULL);
+
+        net_server_ = new DataServerNetServer(ds_impl) ;
+    }
+
+    static void TearDownTestCase()
+    {
+        if (net_server_) {
+            delete net_server_;
+            net_server_ = NULL;
+        }
+        if (ds_impl_) {
+            delete ds_impl_;
+            ds_impl_ = NULL;
+        }
+        if (log_) {
+            delete log_;
+            log_ = NULl;
+        }
+    }
+    static DataServerConfig * config_;
+    static Log * log_;
+    static DataServerImpl * ds_impl_;
+    static DataServerNetServer *  net_server_;
+
+};
+
+DataServerConfig * config_;
+Log * log_;
+DataServerImpl * ds_impl_;
+DataServerNetServer *  net_server_;
+ 
+TEST_F(TestDataServerNetServer, Init)
+{
+    EXPECT_TRUE(net_server_->Init());
+}
+ 
+TEST_F(TestDataServerNetServer, Listen)
+{
+    string s("192.168.1.123:9000");
+    config_->set_nameserver_name(s);
+    EXPECT_TRUE( net_server_->Listen());
+
+    string s("192.168.1.123:9008");
+    config_->set_nameserver_name(s);
+    EXPECT_FALSE( net_server_->Listen());
+}
+
+ 
+TEST_F(TestDataServerNetServer, ConnectToNS)
+{
+    string s("192.168.1.123:9000");
+    config_->set_nameserver_name(s);
+    EXPECT_TRUE( net_server_->Listen());
+
+    string s("192.168.1.123:9008");
+    config_->set_nameserver_name(s);
+    EXPECT_FALSE( net_server_->Listen());
+}
+
+TEST_F(TestDataServerNetServer, ConnectToDS)
+{
+   uint64_t ds_id = BladeNetUtil::string_to_addr("192.168.1.123:8877");
+   //TODO
+    EXPECT_FALSE( net_server_->Listen());
+}
+
+}//end of namespace
+}//end of namespace

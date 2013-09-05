@@ -1,0 +1,23 @@
+/*
+ * Sohu R&D  2012
+ *
+ * File Description:
+ *      The implementation class of dataserver
+ *
+ * Author   : @landyliu
+ * Version  : 1.0
+ * Date     : 2012-06-01
+ */
+【一】以下文件是用于较详尽的单元测试，主要是以单个packet为处理粒度进行测试,《对应的测试文档为Dataserver单元测试报告》：
+1.teseread.sh : 测试读的案例
+2.tesewritepacket.sh : 测试写packet的案例
+3.tesewritepacetkreply.sh :测试处理写回复packet的案例
+4.tesewritepipeline.sh  : 测试处理建立流水线包的案例
+5.tesewritepipelinereply.sh : 测试处理建立流水线回复包的案例
+
+【二】以下文件时用于测试dataserver单元测试的案例，主要以整个block为处理粒度进行测试，以及并发，对应的测试文档为《Dataserver测试用例报告》
+1.write_test.sh :用于测试写。
+1.read_test.sh :用于测试读。
+
+【二’】以下文件时用于测试dataserver单元测试的案例，主要针对异常，对应的测试文档为《Dataserver测试用例报告》
+1.exception.sh
